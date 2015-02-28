@@ -1,5 +1,6 @@
  <?php
 include("header.php"); 
+include("navbar.php"); 
 ?>
 
 
@@ -21,18 +22,12 @@ include("header.php");
 
 				        <li><a data-toggle="tab" href="#my_account">MyAccount</a></li>
 
-
-				       <!--  <li class="dropdown">
-				            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
-				            <ul class="dropdown-menu">
-				                <li><a data-toggle="tab" href="#dropdown1">Dropdown1</a></li>
-				                <li><a data-toggle="tab" href="#dropdown2">Dropdown2</a></li>
-				            </ul>
-				        </li> -->
-
 				    </ul>
 				    <div class="tab-content">
 				        <div id="my_tool" class="tab-pane fade in active">
+
+				        	<div class="panel-body" >
+
 				           
 				        </div>
 				        <div id="my_account" class="tab-pane fade">

@@ -13,3 +13,7 @@ background-color: green;
 	
 display:inline;
 }
+
+#result div, #result img {
+	height: 10px;
+}

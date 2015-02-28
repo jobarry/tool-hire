@@ -1,10 +1,13 @@
 <?php
 include("header.php"); 
+include("navbar.php")
 ?>
 
 <div class="jumbotron">
 	    <div align="center">
-		<button type="button" class="btn btn-lg btn-info">Add a New Tool</button>
+		    <h1>Big Tool</h1>
+		    <br>
+			<button type="button" class="btn btn-lg btn-info">Add a New Tool</button>
 		</div>
 		<br>
 			<div class="row">

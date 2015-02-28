@@ -3,8 +3,6 @@ include("header.php");
 ?>
 
 <div class="jumbotron">
-	<div class="panel panel-default">
-	    <div class="panel-heading">
 	    <div align="center">
 		<button type="button" class="btn btn-lg btn-info">Add a New Tool</button>
 		</div>
@@ -34,8 +32,6 @@ include("header.php");
 				</a>
 				</div>
 			</div>
-		</div>
-	</div>
 </div>
 
 <?php

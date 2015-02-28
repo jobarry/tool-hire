@@ -7,7 +7,9 @@
 				    <div align="center">
 				 		    <h1 style="color:white">Big Tool</h1>
 					    <br>
+					    <a href="addTool.php">
 						<button type="button" class="btn btn-lg btn-info">Add a New Tool</button>
+						</a>
 					</div>
 				</div>
 					<br>

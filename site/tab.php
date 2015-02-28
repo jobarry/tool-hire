@@ -37,10 +37,10 @@ include("header.php");
 				        </div>
 				        <div id="my_account" class="tab-pane fade">
 					        <div style="padding-top:20px"> 
-						        <div id  = "update_user" class="well well-sm" data-toggle = "modal" data-target = "#edituserModal">Update User Information</div>
-						        <div class="well well-sm" data-toggle = "modal" data-target = "#passwordModal">Change Password</div>
-						        <div class="well well-sm">Add Payment</div>
-						        <div class="well well-sm" data-toggle = "modal" data-target = "#terminate">Terminate Account</div>
+						        <div id  = "update_user" class="well well-sm well_hover" data-toggle = "modal" data-target = "#edituserModal">Update User Information<span style="float:right"class="glyphicon glyphicon-plus-sign"></span></div>
+						        <div class="well well-sm well_hover" data-toggle = "modal" data-target = "#passwordModal">Change Password<span style="float:right"class="glyphicon glyphicon-plus-sign"></span></div>
+						        <div class="well well-sm well_hover"data-toggle = "modal" data-target = "#addpayment" >Add Payment<span style="float:right"class="glyphicon glyphicon-plus-sign"></span></div>
+						        <div class="well well-sm well_hover" data-toggle = "modal" data-target = "#terminate">Terminate Account<span style="float:right"class="glyphicon glyphicon-plus-sign"></span></div>
 						    </div>
 				        </div>
 			    	</div>
@@ -139,6 +139,67 @@ include("header.php");
 		</div>
 	</div>
 </div>
+
+<div class = "modal fade" id = "addpayment" role = "dialog">
+	<div class = "modal-dialog">
+		<div class = "modal-content">
+			<div class = "modal-header">
+				<h4>Add/Modify payment</h4>
+			</div>
+			<div class = "model-body">
+				<div style ="padding-top:20px; padding-left:10px">
+
+					<form style="padding-top:10px;" class="form-horizontal" role="form">
+						<div style="padding-top:10px;" class="form-group">
+							<label class="col-lg-4 control-label">Name on Card:</label>
+							<div class="col-lg-7">
+								<input class="form-control" id="currentPassword_profile" type="text" value="" >
+							</div>
+						</div>
+						<div  class="form-group">
+							<label style="padding-top:10px;" class="col-lg-4 control-label">Card Number:</label>
+							<div  style="padding-top:10px;" class="col-lg-7">
+								<input class="form-control" id="newPassword_profile" type="text" value="" >
+							</div>
+						</div>
+						<div  class="form-group">
+							<label style="padding-top:10px;" class="col-lg-4 control-label">CVC:</label>
+							<div  style="padding-top:10px;" class="col-lg-7">
+								<input class="form-control" placeholder='ex. 311' size='4' type="text" value="" >
+							</div>
+						</div>
+						<div class='form-group'>
+						
+							<label style="padding-top:10px;" class="col-lg-4 control-label">Expiration:</label>
+							<div  style="padding-top:10px;" class="col-lg-7">
+								
+								<input class='form-control card-expiry-month' placeholder='MM-YYYY' size='2' type='text'>
+							
+
+							</div>
+
+
+							<!-- <div class='col-xs-4'>
+								<label class='control-label'>Expiration</label>
+								<input class='form-control card-expiry-month' placeholder='MM' size='2' type='text'>
+							</div>
+							<div class='col-xs-4'>
+								<label class='control-label'> </label>
+								<input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
+							</div> -->
+						</div>
+					</form>
+  				</div>
+  			</div>
+  			<div class = "modal-footer">
+  				<a class = "btn btn-default" data-dismiss = "modal">Cancel</a>
+  				<a class = "btn btn-primary">Add</a>
+  			</div>
+  		</div>
+  	</div>
+</div>
+
+
 
 <div class = "modal fade" id = "terminate" role = "dialog">
   	<div class = "modal-dialog">

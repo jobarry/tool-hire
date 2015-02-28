@@ -12,7 +12,7 @@
 				</div>
 					<br>
 					<div class="indexBackground">
-						<div class="row" align="center">
+						<div class="row row2" align="center">
 						
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">

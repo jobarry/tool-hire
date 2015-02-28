@@ -15,7 +15,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>What is this website?<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon"></span></h4>
+						<h4>What is this website?<a data-toggle = "modal" data-target = "#editFAQModal"><span style="float:right"class="glyphicon glyphicon-pencil pencil_icon"></span></a></h4>
 					</div>
 		       		<div class="panel-body">
 						<p>Big Tool allows people to lend and rent tools from one another.</p>
@@ -80,7 +80,44 @@ include("navBar.php")
 						<div  class="form-group">
 							<label style="padding-top:10px;" class="col-lg-4 control-label">FAQ Answer:</label>
 							<div  style="padding-top:10px;" class="col-lg-7">
-								<!-- <textarea class="form-control" rows="3"  id="fName" type="text" value="John" > -->
+								<textarea class="form-control" rows="3"  id="fName" type="text" value="" ></textarea>
+							</div>
+						</div>
+
+						
+					</form>
+				</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+                <button type="button" class="btn btn-primary" id="savechanges" >Add</button>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="modal fade" id="editFAQModal" tabindex="-1" role="dialog" aria-labelledby="editFAQModal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Edit FAQ</h4>
+			</div>
+			<div class="modal-body">
+				<div class="panel-body" >
+					<form style="padding-top:10px;" method="post" class="form-horizontal" role="form">
+
+						<div style="padding-top:10px;" class="form-group">
+							<label class="col-lg-4 control-label">FAQ Question:</label>
+							<div class="col-lg-7">
+								<input class="form-control" id="user_username" type="text"  value="What is this website?" >
+							</div>
+						</div>
+
+						<div  class="form-group">
+							<label style="padding-top:10px;" class="col-lg-4 control-label">FAQ Answer:</label>
+							<div  style="padding-top:10px;" class="col-lg-7">
+								<textarea class="form-control" rows="3"  id="fName" type="text" value="" >Big Tool allows people to lend and rent tools from one another.</textarea>
 							</div>
 						</div>
 

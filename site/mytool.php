@@ -29,59 +29,89 @@ include("navBar.php");
 				        	
 								<div   class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
-										<div class = "col-md-3">
+										<div style = " padding-top:20px"  class = "col-md-3">
 											
 											<img class= "tool1" src="img/screwdriver.jpg">
 
 										</div>
 										<div class= "col-md-8"> 		
 											<div class="panel-body" >
-												<p>Category: Power tool</br>
-													Tool: Drill</br>
-													Description: Wattage: 500W.
+												<p><strong>Title: </strong>Standard drill</br>
+													<strong>Category:</strong> Power tool</br>
+													<strong>Tool: </strong>Drill</br>
+													<strong>Description:</strong> Wattage: 500W.
 														Usage: Suitable for wood, metal and stone.
 														Features: Lock off function, and keyless chuck.
 														Speed: 3,000rpm.
-														Grip details: Soft grip. </p>
-												<div>
-													<button  style= "float:right;"type="button" class="btn btn-primary" >View</button>
-												</div>
+														Grip details:Soft grip.</br>
+														<strong>Condition:</strong> Used</br>
+														<strong>Price:</strong> £2 per day</p>
+												
 
 											</div>	
 										</div>
+										<div style = "padding-top: 140px;" class= "col-md-1">
+													<button  style= " float:right; "type="button" class="btn btn-primary" >Edit</button>
+												</div>
 									</div>            
 								</div>
 
 
 								<div  class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
-										<div class = "col-md-3">
+										<div style = " padding-top:20px" class = "col-md-3">
 											
 											<img class= "tool1" src="img/screwdriver_set.jpg">
 
 										</div>
 										<div class= "col-md-8"> 		
 											<div class="panel-body" >
-
+												<p><strong>Title:</strong> Set of 4 Screwdrivers</br>
+													<strong>Category:</strong> Manual tool</br>
+													<strong>Tool: </strong>Screwdriver</br>
+													<strong>Description:</strong> set of 4 screwdrivers for wood.
+														Mixture of philips and flathead
+														Grip details: Soft grip.</br>
+														<strong>Condition:</strong> Used</br>
+														<strong>Price:</strong> £2.50 per day</p>
+												<!-- <div>
+													<button  style= "float:right;"type="button" class="btn btn-primary" >Edit</button>
+												</div> -->
 
 											</div>	
+
 										</div>
+										<div style = "padding-top: 140px;" class= "col-md-1">
+													<button  style= " float:right; "type="button" class="btn btn-primary" >Edit</button>
+												</div>
 									</div>            
 								</div>
 
 
 								<div  class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
-										<div class = "col-md-3">
+										<div style = " padding-top:20px" class = "col-md-3">
 											
 											<img class= "tool1" src="img/Framing_hammer.jpg">
 
 										</div>
 										<div class= "col-md-8"> 		
 											<div class="panel-body" >
-												<p>this is even more content</p>		
+												<p><strong>Title: </strong>Wooden hammer</br>
+													<strong>Category:</strong> Manual tool</br>
+													<strong>Tool: </strong>Hammer</br>
+													<strong>Description:</strong> Wattage: 500W.
+														Usage: Suitable for wood, metal and stone.
+														Material of head: Carbon steel
+														Grip details: Wooden.</br>
+														<strong>Condition: </strong>Used</br>
+														<strong>Price:</strong> £2 per day</p>
+												
 											</div>	
 										</div>
+										<div style = "padding-top: 140px;" class= "col-md-1">
+													<button  style= " float:right; "type="button" class="btn btn-primary" >Edit</button>
+												</div>
 									</div>            
 								</div>
 

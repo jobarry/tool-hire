@@ -14,7 +14,7 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		        <form class="navbar-form navbar-left" role="search">
+		        <form style = "padding-left:150px;" class="navbar-form navbar-left" role="search">
 		        <div class="form-group">
 		           <div class="input-group">
 		      <input type="text" class="form-control" aria-label="..." placeholder="Search">
@@ -37,18 +37,21 @@
 		      </div><!-- /btn-group -->
 		       <input type="text" class="form-control" aria-label="..." placeholder="London">
 
-		      <div class="input-group-btn">
-		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Within <span class="caret"></span></button>
-		        <ul class="dropdown-menu dropdown-menu-right" role="menu">
-		          <li><a href="#">+ 2 miles</a></li>
-		          <li><a href="#">+ 4 miles</a></li>
-		          <li><a href="#">+ 6 miles</a></li>
-		          <li><a href="#">+ 8 miles</a></li>
-		          <li><a href="#">+ 10 miles</a></li>
-		          <li><a href="#">+ 12 miles</a></li>
-		        </ul>
-		    </div><!-- /input-group -->
-		        </div>		        
+			      <div class="input-group-btn">
+			        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Within <span class="caret"></span></button>
+			        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+			          <li><a href="#">+ 2 miles</a></li>
+			          <li><a href="#">+ 4 miles</a></li>
+			          <li><a href="#">+ 6 miles</a></li>
+			          <li><a href="#">+ 8 miles</a></li>
+			          <li><a href="#">+ 10 miles</a></li>
+			          <li><a href="#">+ 12 miles</a></li>
+			        </ul>
+		    	</div><!-- /input-group -->
+
+		    	
+		        </div>	
+		        <button type="button" class="btn btn-default">Search <span class="glyphicon glyphicon-search"></span></button>	        
 		      </form>		   
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">

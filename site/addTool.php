@@ -1,5 +1,6 @@
  <?php
 include("header.php"); 
+include("navBar.php"); 
 ?>
 
 <div class="page-header">

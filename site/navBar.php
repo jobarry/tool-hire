@@ -15,6 +15,7 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <form style = "padding-left:150px;" class="navbar-form navbar-left" role="search">
+
 		        <div class="form-group">
 		           <div class="input-group">
 		      <input type="text" class="form-control" aria-label="..." placeholder="Search">
@@ -33,8 +34,13 @@
 			          <li><a href="#">Power & Lighting</a></li>
 		
 		        </ul>
+			</div>
+			</div>
+		    </div>
 
-		      </div><!-- /btn-group -->
+		      <!-- /btn-group -->
+		       <div class="form-group">
+		           <div class="input-group">
 		       <input type="text" class="form-control" aria-label="..." placeholder="London">
 
 			      <div class="input-group-btn">
@@ -47,20 +53,24 @@
 			          <li><a href="#">+ 10 miles</a></li>
 			          <li><a href="#">+ 12 miles</a></li>
 			        </ul>
-		    	</div><!-- /input-group -->
+		    	</div>
+		    	</div>
+		    	</div>
+		    	<!-- /input-group -->
 
-		    	
-		        </div>	
-		        <a href="searchResults.php"><button type="button" class="btn btn-default">Search <span class="glyphicon glyphicon-search"></span></button></a>	        
-		      </form>		   
+		    	 <a href="searchResults.php"><button type="button" class="btn btn-default">Search <span class="glyphicon glyphicon-search"></span></button></a>	
+		        		   
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		      	<li><a class = "navbar-button" href="addTool.php">Add Tool</a></li>
 		      	<li><a href="mytool.php">MyTools</a></li>
-		      	<li><a href="#">Messages</a></li>
+		      	<li><a href="#">Notifications</a></li>
 		      	<li><a href="faq.php">FAQ</a></li>
 		        <li><a href="loginSignup.php">LogOut</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
+		  </div>	
+		               
+		      </form>
 </nav>

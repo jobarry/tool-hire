@@ -5,7 +5,7 @@
 		include("navBar.php");
 		?>
 	
-		</nav> <div id="login-overlay" class="modal-dialog">
+		<div id="login-overlay" class="modal-dialog">
 		      <div class="modal-content">
 		          <div class="modal-header">
 		              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
@@ -47,7 +47,7 @@
 		                          <li><span class="fa fa-check text-success"></span> - Save money</li>
 		                          <li><a href="/read-more/"><u>Read more</u></a></li>
 		                      </ul>
-		                      <p><a href="/new-customer/" class="btn btn-info btn-block">Yes please, register now!</a></p>
+		                      <p><a href="register.php" class="btn btn-info btn-block">Yes please, register now!</a></p>
 		                  </div>
 		              </div>
 		          </div>

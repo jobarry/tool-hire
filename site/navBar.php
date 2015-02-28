@@ -58,7 +58,7 @@
 		      	<li><a class = "navbar-button" href="addTool.php">Add Tool</a></li>
 		      	<li><a href="mytool.php">MyTools</a></li>
 		      	<li><a href="#">Messages</a></li>
-		      	<li><a href="#">FAQ</a></li>
+		      	<li><a href="faq.php">FAQ</a></li>
 		        <li><a href="loginSignup.php">LogOut</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->

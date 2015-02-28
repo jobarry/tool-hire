@@ -2,6 +2,9 @@
 include("header.php");
 include("navBar.php")
 ?>
+<div style="float:right; padding-right:150px;">
+<button class = "btn btn-primary" data-toggle = "modal" data-target = "#addFAQModal">Add new FAQ</button>
+</div>
 
 <div class="page-header">
 	<div class="container">
@@ -12,7 +15,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>What is this website?</h4>
+						<h4>What is this website?<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon"></span></h4>
 					</div>
 		       		<div class="panel-body">
 						<p>Big Tool allows people to lend and rent tools from one another.</p>
@@ -21,7 +24,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>Who can use this site?</h4>
+						<h4>Who can use this site?<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon"></span></h4>
 					</div>
 					<div class="panel-body">
 						<p>You can! Members of the public can rent and lend tools. Companies can also lend tools.</p>
@@ -30,7 +33,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>How do you rent tools?</h4>
+						<h4>How do you rent tools?<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon"></span></h4>
 					</div>
 					<div class="panel-body">
 						<p>You can search for a tool in different categories and by distance from a location.
@@ -42,7 +45,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>I have a problem with my rental.</h4>
+						<h4>I have a problem with my rental.<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon"></span></h4>
 					</div>
 					<div class="panel-body">
 						<p>You can file a dispute if you have a problem with the tool you are renting. 
@@ -56,6 +59,43 @@ include("navBar.php")
 	</div>
 </div>
 
+
+<div class="modal fade" id="addFAQModal" tabindex="-1" role="dialog" aria-labelledby="addFAQModal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Add FAQ</h4>
+			</div>
+			<div class="modal-body">
+				<div class="panel-body" >
+					<form style="padding-top:10px;" method="post" class="form-horizontal" role="form">
+
+						<div style="padding-top:10px;" class="form-group">
+							<label class="col-lg-4 control-label">FAQ Question:</label>
+							<div class="col-lg-7">
+								<input class="form-control" id="user_username" type="text"  value="" >
+							</div>
+						</div>
+
+						<div  class="form-group">
+							<label style="padding-top:10px;" class="col-lg-4 control-label">FAQ Answer:</label>
+							<div  style="padding-top:10px;" class="col-lg-7">
+								<!-- <textarea class="form-control" rows="3"  id="fName" type="text" value="John" > -->
+							</div>
+						</div>
+
+						
+					</form>
+				</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+                <button type="button" class="btn btn-primary" id="savechanges" >Add</button>
+        </div>
+    </div>
+  </div>
+
+</div>
 
  <?php
  include("footer.php");

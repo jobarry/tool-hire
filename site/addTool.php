@@ -5,8 +5,8 @@ include("navBar.php");
 
 <div class="page-header">
 	<div class="container">
-	<h1>Add Tool</h1>
 		<div class="col-md-5 col-md-offset-3">
+		<h1>Add Tool</h1>
 	    <div class="panel panel-default">
 	        <div class="panel-heading">
 	            <h3 class="panel-title">Add a tool</h3>

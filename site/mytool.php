@@ -36,7 +36,16 @@ include("navBar.php");
 										</div>
 										<div class= "col-md-8"> 		
 											<div class="panel-body" >
-												<p>this is content</p>
+												<p>Category: Power tool</br>
+													Tool: Drill</br>
+													Description: Wattage: 500W.
+														Usage: Suitable for wood, metal and stone.
+														Features: Lock off function, and keyless chuck.
+														Speed: 3,000rpm.
+														Grip details: Soft grip. </p>
+												<div>
+													<button  style= "float:right;"type="button" class="btn btn-primary" >View</button>
+												</div>
 
 											</div>	
 										</div>
@@ -53,7 +62,7 @@ include("navBar.php");
 										</div>
 										<div class= "col-md-8"> 		
 											<div class="panel-body" >
-												<p>this is more content</p>
+
 
 											</div>	
 										</div>

@@ -52,8 +52,9 @@
 		      </form>		   
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
-		      	<li><a class = "navbar-button" href="#">Add Tool</a></li>
+		      	<li><a class = "navbar-button" href="addTool.php">Add Tool</a></li>
 		      	<li><a href="mytool.php">MyTools</a></li>
+		      	<li><a href="#">Messages</a></li>
 		      	<li><a href="#">FAQ</a></li>
 		        <li><a href="loginSignup.php">LogOut</a></li>
 		      </ul>

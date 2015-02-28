@@ -1,13 +1,7 @@
-
-.navbar-button{
-	color: red;
-
- 
-
-.tool1{
-display:inline;
+.jumbotron{
+	background-image: url("http://www.mcbridestonecompany.com/sitebuildercontent/sitebuilderpictures/batesvillegraymarbleslabrock.jpg");
 }
+.row{
+	padding-left: 20%;
 
-#result div, #result img {
-	height: 10px;
 }

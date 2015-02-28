@@ -61,7 +61,7 @@
           Acceptance of an order by us is dependent on our suppliers ability to provide the product. (Paragraph 13.5.6)
         </p>
         
-        <button type="submit" class="btn btn-primary">Register</button>
+        <a href="loginSignup.php" type="submit" class="btn btn-primary">Register</a>
       </div>
     </div>
   </section>

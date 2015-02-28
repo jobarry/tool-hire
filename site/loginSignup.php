@@ -4,7 +4,6 @@
 		<?php
 		include("navBar.php");
 		?>
-	
 		<div id="login-overlay" class="modal-dialog">
 		      <div class="modal-content">
 		          <div class="modal-header">
@@ -33,7 +32,7 @@
 		                                  </label>
 		                                  <p class="help-block">(if this is a private computer)</p>
 		                              </div>
-		                              <button type="submit" class="btn btn-success btn-block">Login</button>
+		                              <a href="index.php" type="submit" class="btn btn-success btn-block">Login</a>
 		                              <a href="/forgot/" class="btn btn-default btn-block">Help to login</a>
 		                          </form>
 		                      </div>
@@ -53,24 +52,6 @@
 		          </div>
 		      </div>
 		  </div>
-
-
-		  <div class="col-lg-6">
-		    <div class="input-group">
-		      <input type="text" class="form-control" aria-label="...">
-		      <div class="input-group-btn">
-		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Action <span class="caret"></span></button>
-		        <ul class="dropdown-menu dropdown-menu-right" role="menu">
-		          <li><a href="#">Action</a></li>
-		          <li><a href="#">Another action</a></li>
-		          <li><a href="#">Something else here</a></li>
-		          <li class="divider"></li>
-		          <li><a href="#">Separated link</a></li>
-		        </ul>
-		      </div><!-- /btn-group -->
-		    </div><!-- /input-group -->
-		  </div><!-- /.col-lg-6 -->
-
 		<?php
 		include("footer.php");
 		?>

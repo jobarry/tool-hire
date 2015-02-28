@@ -25,15 +25,58 @@ include("navBar.php");
 				    </ul>
 				    <div class="tab-content">
 				        <div id="my_tool" class="tab-pane fade in active">
+				        	<div style = " padding-top:20px">
+				        	
+								<div   class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<div class = "col-md-3">
+											
+											<img class= "tool1" src="img/screwdriver.jpg">
 
-				        	<div class="panel-body" >
-				        		
-				        	</div>
+										</div>
+										<div class= "col-md-8"> 		
+											<div class="panel-body" >
+												<p>this is content</p>
 
-				        	<div class="panel-body" >
-				        	</div>
+											</div>	
+										</div>
+									</div>            
+								</div>
 
-				           
+
+								<div  class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<div class = "col-md-3">
+											
+											<img class= "tool1" src="img/screwdriver_set.jpg">
+
+										</div>
+										<div class= "col-md-8"> 		
+											<div class="panel-body" >
+												<p>this is more content</p>
+
+											</div>	
+										</div>
+									</div>            
+								</div>
+
+
+								<div  class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<div class = "col-md-3">
+											
+											<img class= "tool1" src="img/Framing_hammer.jpg">
+
+										</div>
+										<div class= "col-md-8"> 		
+											<div class="panel-body" >
+												<p>this is even more content</p>		
+											</div>	
+										</div>
+									</div>            
+								</div>
+
+				           </div>
 				        </div>
 				        <div id="my_account" class="tab-pane fade">
 					        <div style="padding-top:20px"> 

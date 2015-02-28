@@ -8,7 +8,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		       <img src="img/hammer_icon.png" alt="Mountain View" style="width:50px;height:50px" >
+		       <a href="index.php"><img src="img/hammer_icon.png"  alt="Mountain View" style="width:50px;height:50px" ></a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,9 +53,9 @@
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		      	<li><a class = "navbar-button" href="#">Add Tool</a></li>
-		      	<li><a href="#">About</a></li>
+		      	<li><a href="mytool.php">MyTools</a></li>
 		      	<li><a href="#">FAQ</a></li>
-		        <li><a href="#">LogOut</a></li>
+		        <li><a href="loginSignup.php">LogOut</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->

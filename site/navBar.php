@@ -22,7 +22,7 @@
 		      <div class="input-group-btn">
 		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">All Tools <span class="caret"></span></button>
 		        <ul class="dropdown-menu dropdown-menu-right" role="menu">
-			          <li><a href="#">Manuel Tools</a></li>
+			          <li><a href="#">Manual Tools</a></li>
 			          <li><a href="#">Power Tools</a></li>
 			          <li><a href="#">Cleaning</a></li>
 			          <li><a href="#">Gardening</a></li>
@@ -51,7 +51,7 @@
 
 		    	
 		        </div>	
-		        <button type="button" class="btn btn-default">Search <span class="glyphicon glyphicon-search"></span></button>	        
+		        <a href="searchResults.php"><button type="button" class="btn btn-default">Search <span class="glyphicon glyphicon-search"></span></button></a>	        
 		      </form>		   
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">

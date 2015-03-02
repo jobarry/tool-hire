@@ -96,7 +96,52 @@
 
 									</div>            
 								</div>
-						
+
+								<div  id = "conflict_panel" class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<div style = " padding-top:30px" class = "col-md-3">
+											
+											<img class= "tool1" src="img/Framing_hammer.jpg">
+
+										</div>
+										<div class= "col-md-9"> 		
+											<div class="panel-body" >
+												<h4><b class = "user">TJones13</b> Has raised an issue about their rental of your tool between <b class = "user">19/04/15 - 20/04/15</b></h4>
+												<p><strong>Title: </strong>Wooden hammer</br>
+													<strong>Category:</strong> Manual tool</br>
+													<strong>Tool: </strong>Hammer</br>
+													<strong>Description:</strong> 
+														Carbon steel head,Wooden grip.</br>
+														<strong>Condition: </strong>Used</br>
+														<strong>Price:</strong> £2 per day</p>
+												<div style= " float: right; display:inline;">
+													<button   type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#conflictModal">View</button>
+												</div>	
+											</div>	
+										</div>
+										
+
+									</div>            
+								</div>
+								<div style = "display:none;"  id = "conflict_after_panel" class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<div style = " padding-top:30px" class = "col-md-3">
+											
+											<img class= "tool1" src="img/Framing_hammer.jpg">
+
+										</div>
+										<div class= "col-md-9"> 		
+											<div class="panel-body" >
+												<h4> Response sent to <b class = "user">TJones13.</b> They have been notified.</h4>
+												
+												<div  style= " float: right; display:inline;">
+												</div>	
+											</div>	
+										</div>
+										
+
+									</div>            
+								</div>
 					
 				</div>
 			</div>
@@ -156,6 +201,30 @@
 	</div>
 </div>
 
+<div class="modal fade" id="conflictModal" tabindex="-1" role="dialog" aria-labelledby="conflictModal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Conflict</h4>
+			</div>
+			<div class="modal-body">
+				<div class="panel-body" >
+
+					<p>Issue Message from<b class = "user">TJones13:</b></p>
+					<p>---Insert Message here---</p>
+					<form style="padding-top:10px;" class="form-horizontal" role="form">
+					<p>Send a response</p>
+						<textarea name="description" id="description" max="10000" rows="5" cols="50" placeholder="Enter Response"></textarea>	
+					</form>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" onclick="hideConflict()" data-dismiss="modal">Send Reply</button>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script type = 'text/javascript'>
@@ -169,6 +238,11 @@ function hideApprove(){
 	 document.getElementById('approve_panel').style.display = "none";
 	 document.getElementById('approve_after_panel').style.display = "block";
 	}
+
+function hideConflict(){
+	 document.getElementById('conflict_panel').style.display = "none";
+	 document.getElementById('conflict_after_panel').style.display = "block";
+	}	
 </script>
 <?php
 	include("footer.php"); 

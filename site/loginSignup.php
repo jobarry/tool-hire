@@ -1,7 +1,6 @@
 		<?php
 		include("header.php");
-		?>
-		<?php
+	
 		include("navBar.php");
 		?>
 		<div id="login-overlay" class="modal-dialog">

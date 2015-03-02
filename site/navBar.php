@@ -64,8 +64,9 @@
 		      <ul class="nav navbar-nav navbar-right">
 		      	<li><a class = "navbar-button" href="addTool.php">Add Tool</a></li>
 		      	<li><a href="mytool.php">MyTools</a></li>
-		      	<li><a href="#">Notifications</a></li>
+		      	<li><a href="notification.php">Notifications</a></li>
 		      	<li><a href="faq.php">FAQ</a></li>
+		      	<li><a href="mybasket.php">My Basket</a></li>
 		        <li><a href="loginSignup.php">LogOut</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->

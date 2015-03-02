@@ -18,20 +18,20 @@
 
 		        <div class="form-group">
 		           <div class="input-group">
-		      <input type="text" class="form-control" aria-label="..." placeholder="Search">
+		      <input type="text" class="form-control" id="searchtool" aria-label="..." placeholder="Search">
 
 		      <div class="input-group-btn">
-		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">All Tools <span class="caret"></span></button>
-		        <ul class="dropdown-menu dropdown-menu-right" role="menu">
-			          <li><a href="#">Manual Tools</a></li>
-			          <li><a href="#">Power Tools</a></li>
-			          <li><a href="#">Cleaning</a></li>
-			          <li><a href="#">Gardening</a></li>
-			          <li><a href="#">Machinery</a></li>
-			          <li><a href="#">Safety & Ventilation</a></li>
-			          <li><a href="#">Decoration</a></li>
-			          <li><a href="#">Plumbing</a></li>
-			          <li><a href="#">Power & Lighting</a></li>
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="alltools" aria-expanded="false">All Tools <span class="caret"></span></button>
+		        <ul class="dropdown-menu drop-tool dropdown-menu-right" role="menu">
+			          <li class="test1"><a href="#">Manual Tools</a></li>
+			          <li class="test1"><a href="#">Power Tools</a></li>
+			          <li class="test1"><a href="#">Cleaning</a></li>
+			          <li class="test1"><a href="#">Gardening</a></li>
+			          <li class="test1"><a href="#">Machinery</a></li>
+			          <li class="test1"><a href="#">Safety & Ventilation</a></li>
+			          <li class="test1"><a href="#">Decoration</a></li>
+			          <li class="test1"><a href="#">Plumbing</a></li>
+			          <li class="test1"><a href="#">Power & Lighting</a></li>
 		
 		        </ul>
 			</div>
@@ -44,14 +44,14 @@
 		       <input type="text" class="form-control" aria-label="..." placeholder="London">
 
 			      <div class="input-group-btn">
-			        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Within <span class="caret"></span></button>
+			        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="within" aria-expanded="false">Within <span class="caret"></span></button>
 			        <ul class="dropdown-menu dropdown-menu-right" role="menu">
-			          <li><a href="#">+ 2 miles</a></li>
-			          <li><a href="#">+ 4 miles</a></li>
-			          <li><a href="#">+ 6 miles</a></li>
-			          <li><a href="#">+ 8 miles</a></li>
-			          <li><a href="#">+ 10 miles</a></li>
-			          <li><a href="#">+ 12 miles</a></li>
+			          <li class="test"><a href="#">+ 2 miles</a></li>
+			          <li class="test"><a href="#">+ 4 miles</a></li>
+			          <li class="test"><a href="#">+ 6 miles</a></li>
+			          <li class="test"><a href="#">+ 8 miles</a></li>
+			          <li class="test"><a href="#">+ 10 miles</a></li>
+			          <li> class="test"<a href="#">+ 12 miles</a></li>
 			        </ul>
 		    	</div>
 		    	</div>

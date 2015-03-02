@@ -5,10 +5,24 @@
 	padding-left: 20%;
 
 }
+
+.navbar-default{
+color: white;
+}
+
 body{
 		background-color: #F2F2F2;
 
 }
+.img-circle{
+	background-size: 80px 60px;
+}
+
+#footer{
+	background-color: #E0E0E0;
+}
+
+
 /*This is to hide admin view*/
 /*.admin_div{
 	display:none;

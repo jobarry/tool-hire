@@ -18,6 +18,8 @@ include("navBar.php");
 
 				        <li class="active"><a data-toggle="tab" href="#my_tool">MyTools</a></li>
 
+				        <li><a data-toggle="tab" href="#my_profile">MyProfile</a></li>
+
 				        <li><a data-toggle="tab" href="#my_account">MyAccount</a></li>
 
 				    </ul>
@@ -112,6 +114,15 @@ include("navBar.php");
 								</div>
 
 				           </div>
+				        </div>
+				        <div id="my_profile" class="tab-pane fade">
+					        <div style="padding-top:20px"> 
+
+
+
+
+					        	
+						    </div>
 				        </div>
 				        <div id="my_account" class="tab-pane fade">
 					        <div style="padding-top:20px"> 

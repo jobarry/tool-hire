@@ -121,6 +121,11 @@ include("navBar.php");
 										<b class = "user">Successfully posted review....</b>
 									</div>            
 								</div>
+								<div style = "display:none;"  id = "report_panel" class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<b class = "user">Successfully posted report....</b>
+									</div>            
+								</div>
 
 				           </div>
 				        </div>
@@ -348,7 +353,20 @@ include("navBar.php");
 			<div class="modal-body">
 				<div class="panel-body" >
 				<h4 style="padding-bottom:10px;"  > Please provide a reason for reporting <b class = "user">JBarry</b></b> </h4>
-
+					<div>
+					<h4 style="padding-bottom:10px;" ><b>Issue Type: </b></h4>
+					<select>
+					  <option value="">-select-</option>
+					  <option value="">Payment</option>
+					  <option value="">Quality</option>
+					  <option value="">Time</option>
+					  <option value="">Other</option>
+					</select> 	
+					<h4><b>Description:</b></h4>
+		    		<textarea name="description" id="description" max="10000" rows="5" cols="50" 
+		    		placeholder="Write your description here"></textarea>
+		    		<br>
+					</div>
 					
 				
 				</div>
@@ -443,6 +461,12 @@ function submitReview(){
 	 document.getElementById('review_panel').style.display = "none";
 	 document.getElementById('sucess_panel').style.display = "block";
 	}
+
+function submitReport(){
+	 document.getElementById('review_panel').style.display = "none";
+	 document.getElementById('report_panel').style.display = "block";
+	}
+	
 </script>
 
  <?php

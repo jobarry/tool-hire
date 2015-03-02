@@ -3,8 +3,6 @@ include("header.php");
 include("navBar.php"); 
 ?>
 
-
-
 <div class="container">
     <div class="row">
       	<div style="padding-top:50px" class="col-md-10">
@@ -26,7 +24,8 @@ include("navBar.php");
 				    <div class="tab-content">
 				        <div id="my_tool" class="tab-pane fade in active">
 				        	<div style = " padding-top:20px">
-				        	
+				        		<div class="page-header"><h3>Owned Tools</h3></div>
+
 								<div   class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:20px"  class = "col-md-3">
@@ -87,7 +86,7 @@ include("navBar.php");
 									</div>            
 								</div>
 
-
+								<div class="page-header"><h3>Rented Tools</h3></div>
 								<div  class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:20px" class = "col-md-3">
@@ -100,17 +99,14 @@ include("navBar.php");
 												<p><strong>Title: </strong>Wooden hammer</br>
 													<strong>Category:</strong> Manual tool</br>
 													<strong>Tool: </strong>Hammer</br>
-													<strong>Description:</strong> Wattage: 500W.
-														Usage: Suitable for wood, metal and stone.
-														Material of head: Carbon steel
-														Grip details: Wooden.</br>
+													<strong>Description:</strong> This a large hammer. Useful for hammering large objects...</br>
 														<strong>Condition: </strong>Used</br>
 														<strong>Price:</strong> £2 per day</p>
 												
 											</div>	
 										</div>
 										<div style = "padding-top: 140px;" class= "col-md-1">
-													<button  style= " float:right; "type="button" class="btn btn-primary" >Edit</button>
+													<a href="writeReview.php"><button  style= " float:right; "type="button" class="btn btn-primary" >Review</button></a>
 												</div>
 									</div>            
 								</div>

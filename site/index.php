@@ -29,7 +29,7 @@
 
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool3.jpg"  style="width:200px;height:200px" alt="...">Power Tools
+							  <img src="img/Tool3.jpg"  style="width:200px;height:200px" alt="...">Cleaning
 							</a>
 							</div>
 
@@ -39,18 +39,18 @@
 						
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool1.jpg" style="width:200px;height:200px" alt="...">Manuel Tools 
+							  <img src="http://www.task-angels.co.uk/wp-content/uploads/2012/04/clx-gift-guide-gardening-de.jpg" style="width:200px;height:200px" alt="...">Gardening 
 							</a>
 							</div>
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool2.jpg" style="width:200px;height:200px" alt="...">Power Tools 
+							  <img src="http://www.oneill-injurysolicitors.co.uk/wp-content/uploads/bigstock-The-Tractor-Modern-Farm-Equi-44692394.jpg" style="width:200px;height:200px" alt="...">Machinery
 							</a>
 							</div>
 
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool3.jpg"  style="width:200px;height:200px" alt="...">Power Tools
+							  <img src="http://thetomorrowcompany.com/wp-content/uploads/2011/09/ventilation1.jpg"  style="width:200px;height:200px" alt="...">Safety & Ventilation
 							</a>
 							</div>
 
@@ -59,18 +59,18 @@
 						
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool1.jpg" style="width:200px;height:200px" alt="...">Manuel Tools 
+							  <img src="http://img.thrfun.com/img/004/386/paint_roller_s.jpg" style="width:200px;height:200px" alt="...">Decoration 
 							</a>
 							</div>
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool2.jpg" style="width:200px;height:200px" alt="...">Power Tools 
+							  <img src="http://acpfl.co/wp-content/uploads/2014/11/Plumbers.png" style="width:200px;height:200px" alt="...">Plumbing
 							</a>
 							</div>
 
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool3.jpg"  style="width:200px;height:200px" alt="...">Power Tools
+							  <img src="http://www.mteevanhire.co.uk/wp-content/uploads/2012/01/site_lighting-thumb.jpg"  style="width:200px;height:200px" alt="...">Power & Lighting
 							</a>
 							</div>
 

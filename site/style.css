@@ -5,6 +5,10 @@
 	padding-left: 20%;
 
 }
+body{
+		background-color: #F2F2F2;
+
+}
 /*This is to hide admin view*/
 /*.admin_div{
 	display:none;

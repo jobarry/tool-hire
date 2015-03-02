@@ -165,7 +165,12 @@ include("navBar.php");
 								<input class="form-control" id="sName" type="text" value="Barry" >
 							</div>
 						</div>
-
+						<div  class="form-group">
+							<label style="padding-top:10px;" class="col-lg-4 control-label">Contact Number:</label>
+							<div style="padding-top:10px;" class="col-lg-7">
+								<input class="form-control" id="number" type="text" value="0789123456" >
+							</div>
+						</div>
 						<div  class="form-group">
 							<label style="padding-top:10px;" class="col-lg-4 control-label">Email:</label>
 							<div style="padding-top:10px;" class="col-lg-7">

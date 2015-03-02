@@ -9,3 +9,13 @@
 /*.admin_div{
 	display:none;
 }*/
+
+/*This is to hide */
+#not{
+	/*display:none;*/
+	display:inline;
+}
+
+.user{
+	color: #32CD32;
+}

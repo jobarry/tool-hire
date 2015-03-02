@@ -21,7 +21,7 @@ include("navBar.php")
         	<br>
 			<h4><button type="button" class="btn btn-lg btn-primary">View</button></h4>
         </a>
-        <a href="#" class="list-group-item">
+        <a href="bigHammer.php" class="list-group-item">
             <div class="row">
         	<div class="col-md-5">
           	<h4 class="list-group-item-heading">Big Hammer</h4>

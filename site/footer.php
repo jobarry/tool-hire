@@ -10,7 +10,7 @@
             <br>
               <div class="col-md-4">
                 <center>
-                  <img src="https://www.facebook.com/images/fb_icon_325x325.png" class="img-circle" style="width:50px;height:50px" alt="the-brains">
+                  <img src="http://www.safarithatch.com/wp-content/uploads/2014/12/fb-icon.png" class="img-circle" style="width:50px;height:50px" alt="the-brains">
                   <br>
                   <h4 class="footertext">Like us on Facebook</h4>
                   <p class="footertext">Keep up to date with the latest from BigTool.<br>

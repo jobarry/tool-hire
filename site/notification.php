@@ -49,7 +49,7 @@
 								</div>
 
 
-								<div  class=" panel panel-default" >
+								<div  id = "approve_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
 											
@@ -69,6 +69,26 @@
 												<div style= " float: right; display:inline;">
 													<button   type="button" class="btn btn-success" data-toggle = "modal" data-target = "#acceptModal">Accept</button>
 													<button  type="button" class="btn btn-danger" >Reject</button>
+												</div>	
+											</div>	
+										</div>
+										
+
+									</div>            
+								</div>
+								<div style = "display:none;"  id = "approve_after_panel" class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<div style = " padding-top:30px" class = "col-md-3">
+											
+											<img class= "tool1" src="img/Framing_hammer.jpg">
+
+										</div>
+										<div class= "col-md-9"> 		
+											<div class="panel-body" >
+												<h4> Confirmed that <b class = "user">TJones13</b> will borrow <b class = "user">Wooden Hammer</b>between <b class = "user">19/04/15 - 20/04/15.</b> They have been notified and will contact you shorly to arrange pickup</h4>
+												
+												<div  style= " float: right; display:inline;">
+													<img src="img/tick.png">
 												</div>	
 											</div>	
 										</div>
@@ -130,7 +150,7 @@
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">No</button>
-				<button type="button" class="btn btn-danger" >Yes</button>
+				<button type="button" class="btn btn-danger" onclick="hideApprove()" data-dismiss="modal">Yes</button>
 			</div>
 		</div>
 	</div>
@@ -142,8 +162,12 @@
 
 
 function hide(){
-	console.log("shit");
 	 document.getElementById('reject_panel').style.display = "none";
+	}
+
+function hideApprove(){
+	 document.getElementById('approve_panel').style.display = "none";
+	 document.getElementById('approve_after_panel').style.display = "block";
 	}
 </script>
 <?php

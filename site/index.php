@@ -3,10 +3,6 @@
 			include("navbar.php")
 			?>
 
-			<script language="JavaScript" type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-
-			<script language="JavaScript" type="text/javascript" src="js/jquery.js"></script>
-
 			<div class="jumbotron">
 				    <div align="center">
 				 		    <span><h1 style="color:white">Big Tool</h1><h4 style="color:white"> - your best bet for cheap tools</h4></span>

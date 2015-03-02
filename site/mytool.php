@@ -88,28 +88,37 @@ include("navBar.php");
 									</div>            
 								</div>
 
-								<div class="page-header"><h3>Rented Tools</h3></div>
-								<div  class=" panel panel-default" >
+								<div class="page-header">
+									<h3>Rented Tools</h3>
+								</div>
+								<div  id = "review_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:20px" class = "col-md-3">
 											
 											<img class= "tool1" src="img/Framing_hammer.jpg">
 
 										</div>
-										<div class= "col-md-8"> 		
+										<div class= "col-md-9"> 		
 											<div class="panel-body" >
-												<p><strong>Title: </strong>Wooden hammer</br>
+												<p><strong>Title: </strong>Wooden hammer</br><i style = "float:right;">19/04/15 - 20/04/15</i>
 													<strong>Category:</strong> Manual tool</br>
 													<strong>Tool: </strong>Hammer</br>
 													<strong>Description:</strong> This a large hammer. Useful for hammering large objects...</br>
 														<strong>Condition: </strong>Used</br>
 														<strong>Price:</strong> £2 per day</p>
-												
+												<div style= " float: right; display:inline;">
+													<button  type="button" class="btn btn-danger" data-toggle = "modal" data-target = "#reportModal" >Report</button>
+													<button   type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#reviewModal">Review</button>
+
+												</div>	
 											</div>	
 										</div>
-										<div style = "padding-top: 140px;" class= "col-md-1">
-													<button  style= " float:right; "type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#reviewModal">Review</button>
-												</div>
+										
+									</div>            
+								</div>
+								<div style = "display:none;"  id = "sucess_panel" class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<b class = "user">Successfully posted review....</b>
 									</div>            
 								</div>
 
@@ -260,7 +269,29 @@ include("navBar.php");
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+				<button type="button" class="btn btn-primary" data-dismiss="modal" onclick="submitReview()">Submit</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="reportModal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Report User</h4>
+			</div>
+			<div class="modal-body">
+				<div class="panel-body" >
+				<h4 style="padding-bottom:10px;"  > Please provide a reason for reporting <b class = "user">JBarry</b></b> </h4>
+
+					
+				
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal" onclick="submitReport()">Submit</button>
 			</div>
 		</div>
 	</div>
@@ -344,6 +375,10 @@ $( "#update_user" ).click(function() {
   
   
 });
+function submitReview(){
+	 document.getElementById('review_panel').style.display = "none";
+	 document.getElementById('sucess_panel').style.display = "block";
+	}
 </script>
 
  <?php

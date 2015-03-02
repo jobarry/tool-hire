@@ -113,11 +113,7 @@ include("navBar.php");
 												</div>	
 											</div>	
 										</div>
-<<<<<<< HEAD
-										<div style = "padding-top: 140px;" class= "col-md-1">
-													<a href="writeReview.php"><button  style= " float:right; "type="button" class="btn btn-primary" >Review</button></a>
-												</div>
-=======
+									
 										
 									</div>            
 								</div>
@@ -129,7 +125,7 @@ include("navBar.php");
 								<div style = "display:none;"  id = "report_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<b class = "user">Successfully posted report....</b>
->>>>>>> 8eb1d352c776aa3eef5ba86703ce93c2d1be16a8
+
 									</div>            
 								</div>
 
@@ -313,8 +309,6 @@ include("navBar.php");
 	</div>
 </div>
 
-<<<<<<< HEAD
-=======
 
 <div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModal" aria-hidden="true">
 	<div class="modal-dialog">
@@ -382,7 +376,7 @@ include("navBar.php");
 	</div>
 </div>
 
->>>>>>> 8eb1d352c776aa3eef5ba86703ce93c2d1be16a8
+
 <div class = "modal fade" id = "addpayment" role = "dialog">
 	<div class = "modal-dialog">
 		<div class = "modal-content">

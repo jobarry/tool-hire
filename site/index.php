@@ -3,6 +3,15 @@
 			include("navbar.php")
 			?>
 
+			  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+
+
+
+
 			<div class="jumbotron">
 				    <div align="center">
 				 		    <span><h1 style="color:white">Big Tool</h1><h4 style="color:white"> - your best bet for cheap tools</h4></span>

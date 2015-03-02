@@ -108,7 +108,7 @@ include("navBar.php");
 											</div>	
 										</div>
 										<div style = "padding-top: 140px;" class= "col-md-1">
-													<button  style= " float:right; "type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#reviewModal">Review</button>
+													<a href="writeReview.php"><button  style= " float:right; "type="button" class="btn btn-primary" >Review</button></a>
 												</div>
 									</div>            
 								</div>
@@ -117,7 +117,6 @@ include("navBar.php");
 				        </div>
 				        <div id="my_profile" class="tab-pane fade">
 					        <div style="padding-top:20px"> 
-
 					        	<h2 align="center">Lingpho Li</h2>
 
 
@@ -184,10 +183,6 @@ include("navBar.php");
 </div>
 </div>
 </div>
-
-						    </div>
-				        </div>
-
 				        <div id="my_account" class="tab-pane fade">
 					        <div style="padding-top:20px"> 
 						        <div id  = "update_user" class="well well-sm well_hover" data-toggle = "modal" data-target = "#edituserModal">Update User Information<span style="float:right"class="glyphicon glyphicon-plus-sign"></span></div>
@@ -298,38 +293,6 @@ include("navBar.php");
 	</div>
 </div>
 
-
-<div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModal" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title" id="myModalLabel">Review User</h4>
-			</div>
-			<div class="modal-body">
-				<div class="panel-body" >
-				<h4 style="padding-bottom:10px;"  > Please rate your experiance renting a <b class = "user">Wooden Hammer</b> off <b class = "user">JBarry</b> between <b class = "user">19/04/15 - 20/04/15.</b> </h4>
-
-					<h4><b>Rating Out Of 5:</b></h4>
-		    		<!-- <input type="number" id="rating" name="rating" min="1" max="5"> -->
-		    	
-		    		<input id="rating" type="number" class="rating" min="0" max="5" step="0.5" data-size="lg" data-symbol="&#xe005;" data-default-caption="{rating} hearts" data-star-captions="{}">
-		    		
-
-		    		<h4><b>Review:</b></h4>
-		    		<textarea name="description" id="description" max="10000" rows="5" cols="50" 
-		    		placeholder="Write your review here"></textarea>
-		    		<br>
-				
-				</div>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
-			</div>
-		</div>
-	</div>
-</div>
-
 <div class = "modal fade" id = "addpayment" role = "dialog">
 	<div class = "modal-dialog">
 		<div class = "modal-content">
@@ -367,6 +330,16 @@ include("navBar.php");
 							
 
 							</div>
+
+
+							<!-- <div class='col-xs-4'>
+								<label class='control-label'>Expiration</label>
+								<input class='form-control card-expiry-month' placeholder='MM' size='2' type='text'>
+							</div>
+							<div class='col-xs-4'>
+								<label class='control-label'> </label>
+								<input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
+							</div> -->
 						</div>
 					</form>
   				</div>

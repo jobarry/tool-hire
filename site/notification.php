@@ -115,7 +115,7 @@
 														<strong>Condition: </strong>Used</br>
 														<strong>Price:</strong> £2 per day</p>
 												<div style= " float: right; display:inline;">
-													<button   type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#conflictModal">View</button>
+													<button   type="button" class="btn btn-danger" data-toggle = "modal" data-target = "#conflictModal">View</button>
 												</div>	
 											</div>	
 										</div>

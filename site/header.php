@@ -7,7 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script language="JavaScript" type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="js/jquery.js"></script>
-<script language="JavaScript" type="text/javascript" src="js/jqueryui.min.js"></script>
+
+<script language="JavaScript" type="text/javascript" src="jquery-ui/jquery-ui.js"></script>
+
 <script language="JavaScript" type="text/javascript" src="js/jquery.min.js"></script>
  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
 <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">

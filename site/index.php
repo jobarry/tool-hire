@@ -3,13 +3,11 @@
 			include("navbar.php")
 			?>
 
-			  <script>
-  $(function() {
-    $( "#datepicker" ).datepicker();
-  });
-  </script>
+<script src="jquery-ui/jquery-ui.js">
+$('#date').datepicker({});
+ </script>
 
-
+<!--<p>Date: <input type="text" id="date"></p> -->
 
 
 			<div class="jumbotron">

@@ -117,13 +117,72 @@ include("navBar.php");
 				        </div>
 				        <div id="my_profile" class="tab-pane fade">
 					        <div style="padding-top:20px"> 
+					        	<h2 align="center">Lingpho Li</h2>
 
 
-
-
-					        	
-						    </div>
-				        </div>
+<div class="container-fluid userbk well span6">
+	<div class="row-fluid">
+        <div class="span2" >
+		    <img align="middle" class= "img-circular" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/t31.0-1/c0.0.1536.1536/10379772_691277004280812_2142439159599644853_o.jpg" class="img-circle">
+        </div><br>
+        
+                  <table class="table table-user-information">
+                    <tbody>
+                      <tr>
+                        <td>Name:</td>
+                        <td>Lingpho Li</td>
+                      </tr>
+                       <tr>
+                        <td>Username:</td>
+                        <td>funnyOne</td>
+                      </tr>
+                      <tr>
+                        <td>User Status:</td>
+                        <td>Commercial</td>
+                      </tr>
+                      <tr>
+                        <td>Date of Birth</td>
+                        <td>01/24/1988</td>
+                      </tr>
+                   
+                         <tr>
+                             <tr>
+                        <td>Gender</td>
+                        <td>Male</td>
+                      </tr>
+                        <tr>
+                        <td>Home Address</td>
+                        <td>45 Aston Way, London, UK</td>
+                      </tr>
+                      <tr>
+                        <td>Email</td>
+                        <td><a href="mailto:info@support.com">info@tool.com</a></td>
+                      </tr>
+                        <td>Phone Number</td>
+                        <td>123-4567-890(Landline)<br><br>555-4567-890(Mobile)
+                        </td>
+                           
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+        
+        <div class="span2">
+            <div class="btn-group">
+                <a class="btn dropdown-toggle btn-info" data-toggle="dropdown" href="#">
+                    Action 
+                    <span class="icon-cog icon-white"></span><span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><span class="icon-wrench"></span> Edit Info</a></li>
+                    <li><a href="#"><span class="icon-trash"></span> Change User Status</a></li>
+                </ul>
+            </div>
+        </div>
+</div>
+</div>
+</div>
+</div>
 				        <div id="my_account" class="tab-pane fade">
 					        <div style="padding-top:20px"> 
 						        <div id  = "update_user" class="well well-sm well_hover" data-toggle = "modal" data-target = "#edituserModal">Update User Information<span style="float:right"class="glyphicon glyphicon-plus-sign"></span></div>

@@ -23,6 +23,18 @@ body{
 	bottom: 0; 
 	width: 100%;
 }
+.img-circular{
+ width: 150px;
+ height: 150px;
+ border-radius: 100px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userbk{
+	background-color: #F0F8FF;
+}
 
 
 /*This is to hide admin view*/

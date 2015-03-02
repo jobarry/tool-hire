@@ -5,7 +5,7 @@
 
 			<div class="jumbotron">
 				    <div align="center">
-				 		    <h1 style="color:white">Big Tool</h1>
+				 		    <span><h1 style="color:white">Big Tool</h1><h4 style="color:white"> - your best bet for cheap tools</h4></span>
 					    <br>
 					    <a href="addTool.php">
 						<button type="button" class="btn btn-lg btn-info">Add a New Tool</button>
@@ -18,18 +18,18 @@
 						
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool1.jpg" style="width:200px;height:200px" alt="...">Manuel Tools 
+							  <img src="img/Tool1.jpg" style="width:200px;height:200px" alt="...">Manuel Tools: (1,566) 
 							</a>
 							</div>
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool2.jpg" style="width:200px;height:200px" alt="...">Power Tools 
+							  <img src="img/Tool2.jpg" style="width:200px;height:200px" alt="...">Power Tools: (567) 
 							</a>
 							</div>
 
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool3.jpg"  style="width:200px;height:200px" alt="...">Power Tools
+							  <img src="img/Tool3.jpg"  style="width:200px;height:200px" alt="...">Cleaning: (683)
 							</a>
 							</div>
 
@@ -39,18 +39,18 @@
 						
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool1.jpg" style="width:200px;height:200px" alt="...">Manuel Tools 
+							  <img src="http://www.task-angels.co.uk/wp-content/uploads/2012/04/clx-gift-guide-gardening-de.jpg" style="width:200px;height:200px" alt="...">Gardening: (788) 
 							</a>
 							</div>
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool2.jpg" style="width:200px;height:200px" alt="...">Power Tools 
+							  <img src="http://www.oneill-injurysolicitors.co.uk/wp-content/uploads/bigstock-The-Tractor-Modern-Farm-Equi-44692394.jpg" style="width:200px;height:200px" alt="...">Machinery: (324)
 							</a>
 							</div>
 
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool3.jpg"  style="width:200px;height:200px" alt="...">Power Tools
+							  <img src="http://thetomorrowcompany.com/wp-content/uploads/2011/09/ventilation1.jpg"  style="width:200px;height:200px" alt="...">Safety & Ventilation: (126)
 							</a>
 							</div>
 
@@ -59,29 +59,23 @@
 						
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool1.jpg" style="width:200px;height:200px" alt="...">Manuel Tools 
+							  <img src="http://img.thrfun.com/img/004/386/paint_roller_s.jpg" style="width:200px;height:200px" alt="...">Decoration: (822) 
 							</a>
 							</div>
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool2.jpg" style="width:200px;height:200px" alt="...">Power Tools 
+							  <img src="http://acpfl.co/wp-content/uploads/2014/11/Plumbers.png" style="width:200px;height:200px" alt="...">Plumbing: (632)
 							</a>
 							</div>
 
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool3.jpg"  style="width:200px;height:200px" alt="...">Power Tools
+							  <img src="http://www.mteevanhire.co.uk/wp-content/uploads/2012/01/site_lighting-thumb.jpg"  style="width:200px;height:200px" alt="...">Power & Lighting: (92)
 							</a>
 							</div>
 
 						</div>
 					</div>
-
-			  <footer style="color:black">
-			  
-			  <p align="center">Like us on  <a style="color:black" href="https://www.facebook.com/ringoboblove?fref=ts">
-			  Facebook</a> or  <a style="color:black" href="mailto:jobarry@tcd.ie">Email Us</a> </p>
-			</footer>
 
 			<?php
 			include("footer.php");

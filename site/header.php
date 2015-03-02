@@ -8,6 +8,11 @@
 <script language="JavaScript" type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="js/jquery.js"></script>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="css/star-rating.css" media="all" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/star-rating.js" type="text/javascript"></script>
+
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>

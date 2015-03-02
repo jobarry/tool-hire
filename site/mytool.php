@@ -117,7 +117,7 @@ include("navBar.php");
 				        </div>
 				        <div id="my_profile" class="tab-pane fade">
 					        <div style="padding-top:20px"> 
-<<<<<<< HEAD
+
 					        	<h2 align="center">Lingpho Li</h2>
 
 
@@ -184,15 +184,10 @@ include("navBar.php");
 </div>
 </div>
 </div>
-=======
-
-
-
-
 
 						    </div>
 				        </div>
->>>>>>> e56532327fa99d5ab90c22d6aaeb779ef636a705
+
 				        <div id="my_account" class="tab-pane fade">
 					        <div style="padding-top:20px"> 
 						        <div id  = "update_user" class="well well-sm well_hover" data-toggle = "modal" data-target = "#edituserModal">Update User Information<span style="float:right"class="glyphicon glyphicon-plus-sign"></span></div>

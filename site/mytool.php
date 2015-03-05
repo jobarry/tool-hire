@@ -101,11 +101,12 @@ include("navBar.php");
 										<div class= "col-md-9"> 		
 											<div class="panel-body" >
 												<p><strong>Title: </strong>Wooden hammer</br><i style = "float:right;">19/04/15 - 20/04/15</i>
-													<strong>Category:</strong> Manual tool</br>
-													<strong>Tool: </strong>Hammer</br>
-													<strong>Description:</strong> This a large hammer. Useful for hammering large objects...</br>
-														<strong>Condition: </strong>Used</br>
-														<strong>Price:</strong> £2 per day</p>
+							                          <strong>Category:</strong> Manual tool</br>
+							                          <strong>Tool: </strong>Hammer</br>
+							                          <strong>Description:</strong> 
+							                            Carbon steel head, Wooden grip.</br>
+							                            <strong>Condition: </strong>Used</br>
+							                            <strong>Price:</strong> £2 per day</p>
 												<div style= " float: right; display:inline;">
 													<button  type="button" class="btn btn-danger" data-toggle = "modal" data-target = "#reportModal" >Report</button>
 													<button   type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#reviewModal">Review</button>

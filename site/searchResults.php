@@ -26,7 +26,7 @@ include("navBar.php")
         <a href="woodenHammer.php" class="list-group-item">
             <div class="row">
             	<div class="col-md-5">
-              	<h4 class="list-group-item-heading">Big Hammer</h4>
+              	<h4 class="list-group-item-heading">Wooden Hammer</h4>
                 <h5>Owner: Rich L</h5>
                 <h5>Average User Rating 4/5</h5>
 <!--               	<p class="list-group-item-text">This a large hammer. Useful for hammering large objects...</p>

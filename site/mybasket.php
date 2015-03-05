@@ -10,9 +10,9 @@
 				<div class="panel-heading"><h3 class="panel-title">Items:</h3></div>
 		    	<div class="panel-body">
 			    	<div class="row">
-			    		<div class="col-md-4"><h4><b>Big Hammer</b></h4></div> 
+			    		<div class="col-md-4"><h4><b>Wooden Hammer</b></h4></div> 
 			    		<div class="col-md-4"><h4>x1</h4></div>
-			    		<div class="col-md-4"><h5><b>Price: </b>£4/day</h5></div>
+			    		<div class="col-md-4"><h5><b>Price: </b>£2/day</h5></div>
 			    		<div class="col-md-4"><h5><b>Days: </b>2 Days</h5></div>
 			    	</div>
 			    	<br>

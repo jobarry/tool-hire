@@ -9,8 +9,8 @@
 			<div class="panel panel-default">
 				<div class="panel-heading"><h3 class="panel-title">Items</h3></div>
 		    	<div class="panel-body">
-			    	<h5>Big Hammer x1</h5>
-			    	<h5><b>Price: </b>£4/day</h5>
+			    	<h5>Wooden Hammer x1</h5>
+			    	<h5><b>Price: </b>£2/day</h5>
 			    	<h5><b>Days: </b>2 Days</h5>
 		    	</div>
 		    </div>

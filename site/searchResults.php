@@ -29,9 +29,6 @@ include("navBar.php")
               	<h4 class="list-group-item-heading">Wooden Hammer</h4>
                 <h5>Owner: Rich L</h5>
                 <h5>Average User Rating 4/5</h5>
-<!--               	<p class="list-group-item-text">This a large hammer. Useful for hammering large objects...</p>
-              	<p class="list-group-item-text">Distance: <strong>3 miles</strong></p>
-         	      <p class="list-group-item-text">Price: <strong>£4/day</strong></p> -->
                 <p><strong>Title: </strong>Wooden hammer</br>
                           <strong>Category:</strong> Manual tool</br>
                           <strong>Tool: </strong>Hammer</br>

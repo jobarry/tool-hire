@@ -48,6 +48,7 @@ include("navBar.php");
 		        <h3>Image</h3>
 		        <img src="img/noimage.jpg">
 		        <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
+		        <br>
 		            <div class="row">
 			            <div class="col-md-3">
 			            	<input type="file" name="files[]" id="js-upload-files" multiple>

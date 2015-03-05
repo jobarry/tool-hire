@@ -23,15 +23,22 @@ include("navBar.php")
         	<br>
 			<h4><button type="button" class="btn btn-lg btn-primary">View</button></h4>
         </a>
-        <a href="bigHammer.php" class="list-group-item">
+        <a href="woodenHammer.php" class="list-group-item">
             <div class="row">
             	<div class="col-md-5">
               	<h4 class="list-group-item-heading">Big Hammer</h4>
                 <h5>Owner: Rich L</h5>
                 <h5>Average User Rating 4/5</h5>
-              	<p class="list-group-item-text">This a large hammer. Useful for hammering large objects...</p>
+<!--               	<p class="list-group-item-text">This a large hammer. Useful for hammering large objects...</p>
               	<p class="list-group-item-text">Distance: <strong>3 miles</strong></p>
-         	      <p class="list-group-item-text">Price: <strong>£4/day</strong></p>
+         	      <p class="list-group-item-text">Price: <strong>£4/day</strong></p> -->
+                <p><strong>Title: </strong>Wooden hammer</br>
+                          <strong>Category:</strong> Manual tool</br>
+                          <strong>Tool: </strong>Hammer</br>
+                          <strong>Description:</strong> 
+                            Carbon steel head, Wooden grip.</br>
+                            <strong>Condition: </strong>Used</br>
+                            <strong>Price:</strong> £2 per day</p>
               </div>
         	    <div class="col-md-2">
         	     <img src="img/Hammer2.jpg">

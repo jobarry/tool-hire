@@ -134,24 +134,24 @@ include("navBar.php");
 				        </div>
 				        <div id="my_profile" class="tab-pane fade">
 					        <div style="padding-top:20px"> 
-					        	<h2 align="center">Lingpho Li</h2>
+					        	<h2 align="center">John Smith</h2>
 
 
 <div class="container-fluid userbk well span6">
 	<div class="row-fluid">
         <div class="span2" >
-		    <img align="middle" class= "img-circular" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/t31.0-1/c0.0.1536.1536/10379772_691277004280812_2142439159599644853_o.jpg" class="img-circle">
+		    <img align="middle" class= "img-circular" src="http://sandman.com.au/wp-content/uploads/2013/02/placeholder-photo.png" class="img-circle">
         </div><br>
         
                   <table class="table table-user-information">
                     <tbody>
                       <tr>
                         <td>Name:</td>
-                        <td>Lingpho Li</td>
+                        <td>John Smith</td>
                       </tr>
                        <tr>
                         <td>Username:</td>
-                        <td>funnyOne</td>
+                        <td>JSmith</td>
                       </tr>
                       <tr>
                         <td>User Status:</td>

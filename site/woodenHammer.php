@@ -2,6 +2,18 @@
 include("header.php"); 
 include("navBar.php");
 ?>
+<head>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+<script language="JavaScript" type="text/javascript" src="js/jquery.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="jquery-ui/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( ".datepicker" ).datepicker();
+  });
+  </script>
+</head>
+
 <div class="container">
 	<div class="col-md-6 col-md-offset-3">	
 		<div class="panel panel-default">
@@ -15,8 +27,10 @@ include("navBar.php");
                             Carbon steel head, Wooden grip.</br>
                             <strong>Condition: </strong>Used</br>
                             <strong>Price:</strong> £2 per day</p>
-	     	    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-	     	    <br>
+	     	   From: <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span> to: 
+	     	    <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span>
+	     	    <br><br>
+
 	     	    <a href="mybasket.php"><button type="button" class="btn btn-lg btn-primary">Add Tool to Basket</button></a>
 			</div>
 		</div>

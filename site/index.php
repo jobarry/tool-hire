@@ -25,7 +25,7 @@ $('#date').datepicker({});
 						
 							<div class="col-xs-6 col-md-3">
 							<a href="#" class="thumbnail">
-							  <img src="img/Tool1.jpg" style="width:200px;height:200px" alt="...">Manuel Tools: (1,566) 
+							  <img src="img/Tool1.jpg" style="width:200px;height:200px" alt="...">Manual Tools: (1,566) 
 							</a>
 							</div>
 							<div class="col-xs-6 col-md-3">

@@ -1,7 +1,7 @@
 		<?php
 		include("header.php");
 	
-		include("navBar.php");
+		include("navBarLogin.php");
 		?>
 		<div id="login-overlay" class="modal-dialog">
 		      <div class="modal-content">
@@ -51,6 +51,5 @@
 		          </div>
 		      </div>
 		  </div>
-		<?php
-		include("footer.php");
-		?>
+		  </body>
+		  </html>

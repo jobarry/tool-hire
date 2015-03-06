@@ -80,6 +80,9 @@ include("navBar.php")
     </a>
   </div>
 </div>
+</div>
+</div>
+
 
 
 <?php

@@ -36,6 +36,10 @@ body{
 	background-color: #F0F8FF;
 }
 
+.addToolStyle{
+	background-color: red;
+}
+
 
 /*This is to hide admin view*/
 /*.admin_div{
@@ -55,3 +59,5 @@ body{
 .user{
 	color: #32CD32;
 }
+/* layout.css Style */
+

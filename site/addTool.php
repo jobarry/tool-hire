@@ -3,24 +3,35 @@ include("header.php");
 include("navBar.php"); 
 ?>
 
-<div class="page-header">
-	<div class="container">
-		<div class="col-md-5 col-md-offset-3">
-		<h1>Add Tool</h1>
-	    <div class="panel panel-default">
-	        <div class="panel-heading">
-	            <h3 class="panel-title">Add a tool</h3>
-	        </div>
+<div class="container ">
+	<div class="row ">
+      <div class="col-md-6 col-md-offset-3 ">
+        <div class="well well-sm userbk">
+          <form class="form-horizontal " action="" method="post">
+      
+            <legend class="text-center">Add Tool</legend>
+    
+            <!-- Name input-->
+            <div class="form-group ">
+              <label class="col-md-3 control-label" for="name">Tool Name</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+              </div>
+            </div>
+    
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Description</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
 
-	        <div class="panel-body">
-	        <div class="row">
-		        <div class="col-md-6">
-		            <h3>Title</h3>
-					<input type="text" id="title" name="title" value="">
-				</div>
-				<div class="col-md-2">
-				    <h3>Category</h3>
-					<select title="Select tool category" name="category">
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Category</label>
+              <div class="col-md-9">
+                <select title="Select tool category" name="category">
 						<option value="Manual Tools" selected>
 						Manual Tools</option>
 						<option value="Power Tools">
@@ -40,54 +51,36 @@ include("navBar.php");
 						<option value="Safety and Ventilation">
 						Safety and Ventilation</option>
 					</select>
-				</div>
-			</div>
+              </div>
+            </div>
 
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Image:</label>
+              <div class="col-md-9">
+               <img src="img/noimage.jpg">
+              </div>
+            </div>
 
-		          <!-- Standard Form -->
-		        <h3>Image</h3>
-		        <img src="img/noimage.jpg">
-		        <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
-		        <br>
-		            <div class="row">
-			            <div class="col-md-3">
-			            	<input type="file" name="files[]" id="js-upload-files" multiple>
-			            </div>
-			        </div>
-			        <br>
-			        <div class="row">
-			            <div class="col-md-3">
-			        	    <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
-			            </div>
-		            </div>
-		        </form>
-        
-	            <h3>Description</h3>
-	        	<textarea name="description" id="description" max="10000" rows="5" cols="60"></textarea>
+             <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Upload:</label>
+              <div class="col-md-9">
+               <input type="file" name="files[]" id="js-upload-files" multiple>
+              </div>
+            </div>
 
-	            <div class="row">
-	            <div class="col-md-6">
-	            <h3>Availability</h3>
-	            </div>
-	            <br>
-	            <div class="col-md-3">
-		        		<button type="button" class="btn btn-lg btn-primary">Add Tool</button>
-				</div>
-				</div>
-				<div class="row">
-		            <div class="col-md-1">
-		                	<input type="checkbox" class="checkbox-switch" value="true">
-		            </div>
-		            <div class="col-md-6">
-		                <p>Available</p>
-		            </div>
-				</div>
-
-			</div>
-		</div>
-		</div>
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg">Submit Tool</button>
+              </div>
+            </div>
+          
+          </form>
+        </div>
+      </div>
 	</div>
 </div>
+
 
  <?php
  include("footer.php");

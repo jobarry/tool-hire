@@ -324,7 +324,7 @@ include("navBar.php");
 					<h4><b>Rating Out Of 5:</b></h4>
 		    		<!-- <input type="number" id="rating" name="rating" min="1" max="5"> -->
 		    	
-		    		<input id="rating" type="number" class="rating" min="0" max="5" step="0.5" data-size="lg" data-symbol="&#xe005;" data-default-caption="{rating} hearts" data-star-captions="{}">
+		    		<input id="rating" type="number" class="rating" min="0" max="5" step="0.5" data-size="lg">
 		    		
 
 		    		<h4><b>Review:</b></h4>

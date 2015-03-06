@@ -2,7 +2,7 @@
     include("header.php");
     ?>
     <?php
-    include("navBar.php");
+    include("navBarLogin.php");
     ?>
 
 

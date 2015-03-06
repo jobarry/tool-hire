@@ -35,6 +35,7 @@ include("navBar.php")
             <strong>Description:</strong> 
             Carbon steel head, Wooden grip.<br>
             <strong>Condition: </strong>Used<br>
+            <strong>Distance:</strong> 2 Miles<br>
             <strong>Price:</strong> £2 per day</p>
         </div>
         <div class="col-md-2">

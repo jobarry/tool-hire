@@ -71,7 +71,7 @@ include("navBar.php");
             <!-- Form actions -->
             <div class="form-group">
               <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary btn-lg">Submit Tool</button>
+        <a href="index.php" type="submit" class="btn btn-primary">Sumbit Tool</a>
               </div>
             </div>
           

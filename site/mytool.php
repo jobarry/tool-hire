@@ -51,9 +51,11 @@ include("navBar.php");
 
 											</div>	
 										</div>
-										<div style = "padding-top: 140px;" class= "col-md-1">
-													<button  style= " float:right; "type="button" class="btn btn-primary" >Edit</button>
-												</div>
+																	<div style= " float: right; display:inline;">
+													<button  type="button" class="btn btn-danger" data-toggle = "modal"  >Remove</button>
+													<button   type="button" class="btn btn-primary" data-toggle = "modal" >Edit</button>
+
+												</div>	
 									</div>            
 								</div>
 

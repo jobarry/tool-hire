@@ -43,7 +43,7 @@
 										
 									</div>            
 								</div>
-
+								<div class="admin_div">
 								<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -65,8 +65,9 @@
 										</div>
 									</div>            
 								</div>
+								</div>
 
-								<!-- <div  id= "reject_panel" class=" panel panel-default" >
+								<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
 											
@@ -96,7 +97,7 @@
 										</div>
 										
 									</div>            
-								</div> -->
+								</div>
 
 
 

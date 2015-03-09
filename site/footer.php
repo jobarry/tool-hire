@@ -20,7 +20,7 @@
                 <center>
                   <img src="http://png-1.findicons.com/files/icons/2794/metro_ui/256/gmail.png" class="img-circle" style="width:50px;height:50px" alt="...">
                   <br>
-                  <h4 class="footertext">Messege us</h4>
+                  <h4 class="footertext">Message us</h4>
                   <p class="footertext">Let us know your experiences with this site.<br>
                 </center>
               </div>

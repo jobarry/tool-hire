@@ -5,7 +5,7 @@
 
 
 	<div style = " padding-top:50px" class="container">
-		<div class="col-md-9 col-md-offset-1">
+		<div class="col-md-9 ">
 
 		    <div class="panel panel-default">
 		        <div class="panel-heading">
@@ -17,6 +17,34 @@
 		        <div class="panel-body">
 		        	
 								<div  id= "reject_panel" class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<div style = " padding-top:30px" class = "col-md-3">
+											
+											<img class= "tool1" src="http://www.wpclipart.com/signs_symbol/icons_oversized/male_user_icon.png" height="120" width="120">
+
+										</div>
+										<div class= "col-md-9"> 		
+											<div class="panel-body" >
+												<h4><b class = "user">PArnold</b> sent you a message<b class = "user"> 10:31 - 25/04/15</b></h4>
+												<p><strong>Subject:</strong> Thanks again</br>
+													
+													<strong>Message:</strong> Thanks for dropping off the drill
+													 saved me a lot of time and worked perfectly!
+													  Will refer you.</br>
+													</p>
+														<div style= " float: right; display:inline;">
+															<button  type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#rejectModal">Reply</button>
+														</div>	
+												
+
+											</div>	
+
+										</div>
+										
+									</div>            
+								</div>
+
+															<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
 											
@@ -47,6 +75,7 @@
 										
 									</div>            
 								</div>
+
 
 
 								<div  id = "approve_panel" class=" panel panel-default" >
@@ -211,7 +240,7 @@
 				<div class="panel-body" >
 
 					<p>Issue Message from<b class = "user">TJones13:</b></p>
-					<p>I would like to cancel my order. Thanks.</p>
+					<p>---Insert Message here---</p>
 					<form style="padding-top:10px;" class="form-horizontal" role="form">
 					<p>Send a response</p>
 						<textarea name="description" id="description" max="10000" rows="5" cols="50" placeholder="Enter Response"></textarea>	
@@ -219,7 +248,7 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-primary" onclick="hideConflict()" data-dismiss="modal">Send Reply and Cancel Order</button>
+				<button type="button" class="btn btn-primary" onclick="hideConflict()" data-dismiss="modal">Send Reply</button>
 			</div>
 		</div>
 	</div>

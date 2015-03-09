@@ -7,6 +7,21 @@
 $('#date').datepicker({});
  </script>
 
+ <script type="text/javascript">
+ $(".test1").click(function(){
+
+      $("#alltools").text($(this).text());
+      $('#searchtool').attr("placeholder",$(this).text());
+
+   });
+
+  $(".test").click(function(){
+
+      $("#within").text($(this).text());
+
+   });
+ </script>
+
 <!--<p>Date: <input type="text" id="date"></p> -->
 
 

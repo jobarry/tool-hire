@@ -119,6 +119,7 @@
 												</div>	
 											</div>	
 										</div>
+
 										
 
 									</div>            
@@ -142,7 +143,30 @@
 
 									</div>            
 								</div>
-					
+								<div   id = "payment_after_panel" class=" panel panel-default" >
+									<div style = " padding-top:10px"  class="panel-body" >
+										<div style = " padding-top:30px" class = "col-md-3">
+											
+											<img class= "tool1" src="img/Framing_hammer.jpg">
+
+										</div>
+											<div class= "col-md-9"> 		
+												<div class="panel-body" >
+													<h4><b class = "user">TJones13</b> Has accepted your rental of the tool between <b class = "user">19/04/15 - 20/04/15</b></h4>
+													<p><strong>Title: </strong>Wooden hammer</br>
+														<strong>Category:</strong> Manual tool</br>
+														<strong>Tool: </strong>Hammer</br>
+														<strong>Description:</strong> 
+															Carbon steel head,Wooden grip.</br>
+															<strong>Condition: </strong>Used</br>
+															<strong>Price:</strong> £2 per day</p>
+													<div style= " float: right; display:inline;">
+														<a href="checkout.php"><button   type="button" class="btn btn-danger" >Payment</button></a>
+													</div>	
+											</div>	
+										</div>
+									</div>
+								</div>
 				</div>
 			</div>
 		</div>

@@ -58,7 +58,7 @@
         		</div>
 		    	</div>
 		    </div>
-		    <a href="checkoutConfirm.php"><button type="button" class="btn btn-lg btn-info">Proceed</button></a>
+		    <a href="paymentConfirmed.php"><button type="button" class="btn btn-lg btn-info">Proceed</button></a>
 		</div>
 	</div>
 </div>

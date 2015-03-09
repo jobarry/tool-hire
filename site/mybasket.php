@@ -18,7 +18,7 @@
 			    	<br>
 			    	<div class="row">
 			    		<div class="col-md-4">
-			    		<a href="checkout.php"><button type="button" class="btn btn-lg btn-success">Checkout</button></a>
+			    		<a href="checkoutConfirm.php"><button type="button" class="btn btn-lg btn-success">Checkout</button></a>
 			    		</div>
 			    	</div>
 		    	</div>

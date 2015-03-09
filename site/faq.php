@@ -5,6 +5,9 @@ include("navBar.php")
 <div style="float:right; padding-right:150px;" class="admin_div">
 <button class = "btn btn-primary" data-toggle = "modal" data-target = "#addFAQModal">Add new FAQ</button>
 </div>
+<div style="float:right; padding-right:150px;" class="user_div">
+<button class = "btn btn-primary" data-toggle = "modal" data-target = "#messageAdmin">Message the Admin</button>
+</div>
 
 <div class="page-header">
 	<div class="container">
@@ -94,7 +97,33 @@ include("navBar.php")
         </div>
     </div>
   </div>
+</div>
 
+<div class="modal fade" id="messageAdmin" tabindex="-1" role="dialog" aria-labelledby="messageAdmin" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Message Admin</h4>
+			</div>
+			<div class="modal-body">
+				<div class="panel-body" >
+					<form style="padding-top:10px;" method="post" class="form-horizontal" role="form">
+
+						<div style="padding-top:10px;" class="form-group">
+							<label class="col-lg-4 control-label">Message Admin:</label>
+							<div class="col-lg-7">
+								 <textarea rows="4" cols="40"></textarea> 
+							</div>
+						</div>					
+					</form>
+				</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" >Cancel</button>
+                <button type="button" class="btn btn-success" id="savechanges" data-dismiss="modal">Send</button>
+        </div>
+    </div>
+  </div>
 </div>
 
 <div class="modal fade" id="editFAQModal" tabindex="-1" role="dialog" aria-labelledby="editFAQModal" aria-hidden="true">
@@ -131,7 +160,6 @@ include("navBar.php")
         </div>
     </div>
   </div>
-
 </div>
 
  <?php

@@ -37,7 +37,7 @@ include("navBar.php");
 										</div>
 										<div class= "col-md-8"> 		
 											<div class="panel-body" >
-												<p><strong>Title: </strong>Standard drill</br>
+												<p><strong>Title: </strong>Standard drill</br><i style = "float:right; color:green;">Available</i>
 													<strong>Category:</strong> Power tool</br>
 													<strong>Tool: </strong>Drill</br>
 													<strong>Description:</strong> Wattage: 500W.
@@ -67,7 +67,7 @@ include("navBar.php");
 										</div>
 										<div class= "col-md-8"> 		
 											<div class="panel-body" >
-												<p><strong>Title:</strong> Set of 4 Screwdrivers</br>
+												<p><strong>Title:</strong> Set of 4 Screwdrivers</br><i style = "float:right; color:green;">Available</i>
 													<strong>Category:</strong> Manual tool</br>
 													<strong>Tool: </strong>Screwdriver</br>
 													<strong>Description:</strong> set of 4 screwdrivers for wood.

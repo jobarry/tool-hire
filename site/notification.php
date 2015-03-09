@@ -33,7 +33,7 @@
 													  Will refer you.</br>
 													</p>
 														<div style= " float: right; display:inline;">
-															<button  type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#rejectModal">Reply</button>
+															<button  type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#reply">Reply</button>
 														</div>	
 												
 
@@ -65,7 +65,7 @@
 														<strong>Price:</strong> £2.50 per day</p>
 														<div style= " float: right; display:inline;">
 															<button   type="button" class="btn btn-success" >Accept</button>
-															<button  type="button" class="btn btn-danger" data-toggle = "modal" data-target = "#rejectModal">Reject</button>
+															<button  type="button" class="btn btn-danger" data-toggle = "modal" data-target = "#reply">Reject</button>
 														</div>	
 												
 
@@ -201,6 +201,33 @@
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">No</button>
 				<button type="button" id = "hide" class="btn btn-danger" onclick="hide()" data-dismiss="modal">Yes</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="reply" tabindex="-1" role="dialog" aria-labelledby="reply" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Reply</h4>
+			</div>
+			<div class="modal-body">
+				<div class="panel-body" >
+
+					<p>Send message to <b class = "user">PArnold</b></p>
+					<form style="padding-top:10px;" class="form-horizontal" role="form">
+						
+						
+							<div style="padding-top:10px;" class="col-lg-7">
+								 <textarea rows="4" cols="50"></textarea> 
+							</div>
+						
+					</form>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" id = "hide" class="btn btn-success" data-dismiss="modal">Send</button>
 			</div>
 		</div>
 	</div>

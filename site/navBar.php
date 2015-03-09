@@ -67,7 +67,7 @@
 		      	<li><a href="notification.php">Notifications <div id="not"><span class="glyphicon glyphicon-exclamation-sign"></span></div></a></li>
 		      	<li><a href="faq.php">FAQ</a></li>
 		      	<li><a href="mybasket.php">My Basket</a></li>
-		        <li><a href="loginSignup.php">LogOut</a></li>
+		        <li><a href="loginSignup.php">Logout</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->

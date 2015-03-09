@@ -33,7 +33,10 @@ include("navBar.php");
 	     	   From: <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span></br> To: 
 	     	    <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span>
 	     	    <br><br>
-
+	     	    <div class="row">
+	     	    <label class="age_box"><input type="checkbox" class="checkbox" />For delivery</label>
+	     	    <label class="age_box"><input type="checkbox" class="checkbox" />For collection</label> 
+	     	    </div>
 	     	    <a href="mybasket.php"><button type="button" class="btn btn-lg btn-primary">Add Tool to Basket</button></a>
 			</div>
 		</div>

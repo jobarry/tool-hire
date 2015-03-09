@@ -8,7 +8,7 @@
 			<h1>Payment Recieved!</h1>
 			<div class="panel panel-default">
 		    	<div class="panel-body">
-			    	<h4>Thank you for placing your payment! You are now responsible to contact your lender, there contact information is below.</br></br>Reference Number: 15364325452</br>Full Name: John Smith</br>Phone Number:0789012345</br>Email: jsmith@tool.com</h4>
+			    	<h4>Thank you for placing your payment! You are now responsible to contact your lender, their contact information is below.</br></br>Reference Number: 15364325452</br>Full Name: John Smith</br>Phone Number:0789012345</br>Email: jsmith@tool.com</h4>
 		    	</div>
 		    </div>
 		</div>

@@ -23,8 +23,8 @@ include("navBar.php");
 				        <li><a data-toggle="tab" href="#my_account">MyAccount</a></li>
 
 				    </ul>
-				    <div class="tab-content">
-				        <div id="my_tool" class="tab-pane fade in active">
+				    <div class="tab-content ">
+				        <div id="my_tool" class="tab-pane fade in active userP">
 				        	<div style = " padding-top:20px">
 				        		<div class="page-header"><h3>Owned Tools</h3></div>
 

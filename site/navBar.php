@@ -62,11 +62,11 @@
 		        		   
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
-		      	<li><a class = "navbar-button" href="addTool.php">Add Tool</a></li>
+		      	<div class="admin_div"><li><a class = "navbar-button" href="addTool.php">Add Tool</a></li></div>
 		      	<li><a href="mytool.php">MyPage</a></li>
 		      	<li><a href="notification.php">Notifications <div id="not"><span class="glyphicon glyphicon-exclamation-sign"></span></div></a></li>
 		      	<li><a href="faq.php">FAQ</a></li>
-		      	<li><a href="mybasket.php">My Basket</a></li>
+		      	<div class="admin_div"><li><a  href="mybasket.php">My Basket</a></li></div>
 		        <li><a href="loginSignup.php">Logout</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->

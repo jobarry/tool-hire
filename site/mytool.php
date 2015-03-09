@@ -350,7 +350,7 @@ include("navBar.php");
 			</div>
 			<div class="modal-body">
 				<div class="panel-body" >
-				<h4 style="padding-bottom:10px;"  > Please provide a reason for reporting <b class = "user">JBarry</b></b> </h4>
+				<h4 style="padding-bottom:10px;"  > Please provide a reason for reporting <b class = "user">JSmith</b></b> </h4>
 					<div>
 					<h4 style="padding-bottom:10px;" ><b>Issue Type: </b></h4>
 					<select>

@@ -41,28 +41,28 @@ body{
 }
 
 
-/*This is to hide admin view*/
+/*Comment out to show admin view*/
 .admin_div{
 	display:none;
 }
 
-/*This is to hide user view*/
+/*Comment out to show user view*/
 /*.user_div{
 	display:none;
 }*/
 
-/*.lender{
+.lender{
 	display:none;
-}*/
+}
 
-/*.renter{
+.renter{
 	display:none;
-}*/
+}
 
 /*This is to hide */
 #not{
-/*	display:none;*/	
 	display:inline;
+	display:none;	
 }
 /*#reject_panel{
 	display:none;

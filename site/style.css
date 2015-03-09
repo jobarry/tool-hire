@@ -42,19 +42,21 @@ body{
 
 
 /*Comment out to show admin view*/
-.admin_div{
-	display:none;
-}
-
-/*Comment out to show user view*/
-/*.user_div{
+/*.admin_div{
 	display:none;
 }*/
 
-.lender{
+/*Comment out to show user view*/
+.user_div{
 	display:none;
 }
 
+/*Comment out to show lender view*/
+/*.lender{
+	display:none;
+}*/
+
+/*Comment out to show renter view*/
 .renter{
 	display:none;
 }

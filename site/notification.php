@@ -58,7 +58,7 @@
 												<h4><b class = "user">JSmith</b> sent you a message</h4>
 												<p><strong>Subject:</strong> Deposits</br>
 													
-													<strong>Message:</strong> Someone renting my tool would like to cancel their order, what happens with their deposit?</br>
+													<strong>Message:</strong> Someone renting my tool would like to cancel their order. I have checked the FAQ but I am still not sure what to do. What happens with their deposit?</br>
 													</p>
 													<div style= " float: right; display:inline;">
 														<button  type="button" class="btn btn-primary" data-toggle = "modal" data-target = "#reply">Reply</button>

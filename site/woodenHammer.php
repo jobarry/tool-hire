@@ -24,9 +24,12 @@ include("navBar.php");
                 <p>       <strong>Category:</strong> Manual tool</br>
                           <strong>Tool: </strong>Hammer</br>
                           <strong>Description:</strong> 
-                            Carbon steel head, Wooden grip.</br>
-                            <strong>Condition: </strong>Used</br>
-                            <strong>Price:</strong> £2 per day</p>
+                          Carbon steel head, Wooden grip.</br>
+                          <strong>Condition: </strong>Used</br>
+                          <strong>Price:</strong> £2 per day</p>
+                          <h5>Owner: Rich L</h5>
+                          <button  type="button" class="btn btn-info" data-toggle = "modal" data-target = "#messageModal">Message Them</button>
+                          <br><br>
 	     	   From: <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span></br> To: 
 	     	    <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span>
 	     	    <br><br>
@@ -59,6 +62,35 @@ include("navBar.php");
 		</div>
 	</div>
 </div>
+
+
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="rejectModal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="myModalLabel">Message</h4>
+			</div>
+			<div class="modal-body">
+				<div class="panel-body" >
+					<p>Send <b class = "user">Rich L</b> a message:</p>
+					<form style="padding-top:10px;" class="form-horizontal" role="form">
+						<div  class="form-group">
+							<label style="padding-top:10px;" class="col-lg-4 control-label">Message Content:</label>
+							<div style="padding-top:10px;" class="col-lg-7">
+								 <textarea rows="4" cols="40"></textarea> 
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				<button type="button" id = "hide" class="btn btn-success" onclick="hide()" data-dismiss="modal">Send</button>
+			</div>
+		</div>
+	</div>
+</div>
+
  <?php
  include("footer.php");
  ?>

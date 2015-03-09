@@ -15,7 +15,7 @@
 		        </div>
 
 		        <div class="panel-body">
-		        	
+		        				<div class="lender">
 								<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -43,6 +43,8 @@
 										
 									</div>            
 								</div>
+								</div>
+
 								<div class="admin_div">
 								<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
@@ -67,6 +69,7 @@
 								</div>
 								</div>
 
+								<div class="lender">
 								<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -98,9 +101,9 @@
 										
 									</div>            
 								</div>
+								</div>
 
-
-
+								<div class="lender">
 								<div  id = "approve_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -129,6 +132,8 @@
 
 									</div>            
 								</div>
+								</div>
+
 								<div style = "display:none;"  id = "approve_after_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -150,6 +155,7 @@
 									</div>            
 								</div>
 
+								<div class="lender">
 								<div  id = "conflict_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -177,6 +183,9 @@
 
 									</div>            
 								</div>
+								</div>
+
+
 								<div style = "display:none;"  id = "conflict_after_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -196,6 +205,8 @@
 
 									</div>            
 								</div>
+
+								<div class="renter">
 								<div   id = "payment_after_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -219,6 +230,7 @@
 											</div>	
 										</div>
 									</div>
+								</div>
 								</div>
 				</div>
 			</div>

@@ -47,9 +47,17 @@ body{
 }
 
 /*This is to hide user view*/
-.user_div{
+/*.user_div{
 	display:none;
 }
+
+.lender{
+	display:none;
+}*/
+
+/*.renter{
+	display:none;
+}*/
 
 /*This is to hide */
 #not{

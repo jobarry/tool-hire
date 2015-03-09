@@ -45,7 +45,7 @@
 								</div>
 								</div>
 
-								<div class="admin_div">
+								<div class="user_div">
 								<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">

@@ -27,7 +27,7 @@ include("navBar.php");
                             Carbon steel head, Wooden grip.</br>
                             <strong>Condition: </strong>Used</br>
                             <strong>Price:</strong> £2 per day</p>
-	     	   From: <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span> to: 
+	     	   From: <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span></br> To: 
 	     	    <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span>
 	     	    <br><br>
 

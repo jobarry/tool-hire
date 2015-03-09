@@ -5,7 +5,7 @@
 
 
 	<div style = " padding-top:50px" class="container">
-		<div class="col-md-9 ">
+		<div class="col-md-9 col-md-offset-1">
 
 		    <div class="panel panel-default">
 		        <div class="panel-heading">
@@ -211,7 +211,7 @@
 				<div class="panel-body" >
 
 					<p>Issue Message from<b class = "user">TJones13:</b></p>
-					<p>---Insert Message here---</p>
+					<p>I would like to cancel my order. Thanks.</p>
 					<form style="padding-top:10px;" class="form-horizontal" role="form">
 					<p>Send a response</p>
 						<textarea name="description" id="description" max="10000" rows="5" cols="50" placeholder="Enter Response"></textarea>	
@@ -219,7 +219,7 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-primary" onclick="hideConflict()" data-dismiss="modal">Send Reply</button>
+				<button type="button" class="btn btn-primary" onclick="hideConflict()" data-dismiss="modal">Send Reply and Cancel Order</button>
 			</div>
 		</div>
 	</div>

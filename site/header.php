@@ -10,18 +10,7 @@
 
 <script language="JavaScript" type="text/javascript" src="jquery-ui/jquery-ui.js"></script>
 
-<script language="JavaScript" type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript"> $(function() {
-	    $( ".date" ).datepicker({ 
-	    	changeMonth: true,
-	        changeYear: true,
-	        showButtonPanel: true,
-	       // maxDate: '@maxDate',
-	       // minDate: '@minDate'
-	    	dateFormat: 'dd/mm/yy',
-	    	yearRange: "-100:+0"
 
-	    });</script>
  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
 <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">

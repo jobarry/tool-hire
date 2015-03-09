@@ -42,19 +42,19 @@ body{
 
 
 /*This is to hide admin view*/
-.admin_div{
-	display:none;
-}
-
-/*This is to hide user view*/
-/*.user_div{
+/*.admin_div{
 	display:none;
 }*/
 
+/*This is to hide user view*/
+.user_div{
+	display:none;
+}
+
 /*This is to hide */
 #not{
-	/*display:none;*/
-	display:inline;
+	display:none;
+	/*display:inline;*/
 }
 /*#reject_panel{
 	display:none;

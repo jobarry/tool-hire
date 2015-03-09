@@ -58,7 +58,7 @@ include("navBar.php");
 								</div>
 
 
-								<div  class=" panel panel-default" >
+<!-- 								<div  class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:20px" class = "col-md-3">
 											
@@ -67,26 +67,26 @@ include("navBar.php");
 										</div>
 										<div class= "col-md-8"> 		
 											<div class="panel-body" >
-												<p><strong>Title:</strong> Set of 4 Screwdrivers</br><i style = "float:right; color:green;">Available</i>
-													<strong>Category:</strong> Manual tool</br>
-													<strong>Tool: </strong>Screwdriver</br>
+												<p><strong>Title:</strong> Set of 4 Screwdrivers<br><i style = "float:right; color:green;">Available</i>
+													<strong>Category:</strong> Manual tool<br>
+													<strong>Tool: </strong>Screwdriver<br>
 													<strong>Description:</strong> set of 4 screwdrivers for wood.
 														Mixture of philips and flathead
-														Grip details: Soft grip.</br>
-														<strong>Condition:</strong> Used</br>
+														Grip details: Soft grip.<br>
+														<strong>Condition:</strong> Used<br>
 														<strong>Price:</strong> £2.50 per day</p>
 												<!-- <div>
 													<button  style= "float:right;"type="button" class="btn btn-primary" >Edit</button>
 												</div> -->
 
-											</div>	
+										<!-- 	</div>	
 
 										</div>
 										<div style = "padding-top: 140px;" class= "col-md-1">
 													<button  style= " float:right; "type="button" class="btn btn-primary" >Edit</button>
-												</div>
+										</div>
 									</div>            
-								</div>
+								</div> -->
 
 								<div class="page-header">
 									<h3>Rented Tools</h3>

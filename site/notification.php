@@ -44,7 +44,7 @@
 									</div>            
 								</div>
 
-															<div  id= "reject_panel" class=" panel panel-default" >
+								<!-- <div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
 											
@@ -74,7 +74,7 @@
 										</div>
 										
 									</div>            
-								</div>
+								</div> -->
 
 
 
@@ -94,7 +94,8 @@
 													<strong>Description:</strong> 
 														Carbon steel head,Wooden grip.</br>
 														<strong>Condition: </strong>Used</br>
-														<strong>Price:</strong> £2 per day</p>
+														<strong>Price:</strong> £2 per day<br>
+														<strong>Delivery:</strong> Collection.</p>
 												<div style= " float: right; display:inline;">
 													<button   type="button" class="btn btn-success" data-toggle = "modal" data-target = "#acceptModal">Accept</button>
 													<button  type="button" class="btn btn-danger" >Reject</button>
@@ -181,7 +182,7 @@
 										</div>
 											<div class= "col-md-9"> 		
 												<div class="panel-body" >
-													<h4><b class = "user">TJones13</b> Has accepted your rental of the tool between <b class = "user">19/04/15 - 20/04/15</b></h4>
+													<h4><b class = "user">JSmith</b> Has accepted your rental of the tool between <b class = "user">19/04/15 - 20/04/15</b></h4>
 													<p><strong>Title: </strong>Wooden hammer</br>
 														<strong>Category:</strong> Manual tool</br>
 														<strong>Tool: </strong>Hammer</br>
@@ -291,7 +292,7 @@
 				<div class="panel-body" >
 
 					<p>Issue Message from<b class = "user">TJones13:</b></p>
-					<p>---Insert Message here---</p>
+					<p>Sorry, I'd like to cancel my order. Will I get my depsoit back?</p>
 					<form style="padding-top:10px;" class="form-horizontal" role="form">
 					<p>Send a response</p>
 						<textarea name="description" id="description" max="10000" rows="5" cols="50" placeholder="Enter Response"></textarea>	

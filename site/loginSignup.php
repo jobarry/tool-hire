@@ -32,7 +32,7 @@
 		                                  <p class="help-block">(if this is a private computer)</p>
 		                              </div>
 		                              <a href="index.php" type="submit" class="btn btn-success btn-block">Login</a>
-		                              <a href="/forgot/" class="btn btn-default btn-block">Help to login</a>
+		                              <a href="/forgot/" class="btn btn-default btn-block">Forgotten Password</a>
 		                          </form>
 		                      </div>
 		                  </div>

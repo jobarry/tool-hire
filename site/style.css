@@ -49,7 +49,7 @@ body{
 /*This is to hide user view*/
 /*.user_div{
 	display:none;
-}
+}*/
 
 .lender{
 	display:none;
@@ -68,6 +68,9 @@ body{
 	display:none;
 
 }*/
+.admin{
+	display:none;
+}
 
 .user{
 	color: #32CD32;

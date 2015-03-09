@@ -2,10 +2,10 @@
 include("header.php");
 include("navBar.php")
 ?>
-<div style="float:right; padding-right:150px;" class="admin_div">
+<div style="float:right; padding-right:150px;" class="user_div">
 <button class = "btn btn-primary" data-toggle = "modal" data-target = "#addFAQModal">Add new FAQ</button>
 </div>
-<div style="float:right; padding-right:150px;" class="user_div">
+<div style="float:right; padding-right:150px;" class="admin_div">
 <button class = "btn btn-primary" data-toggle = "modal" data-target = "#messageAdmin">Message the Admin</button>
 </div>
 
@@ -18,7 +18,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>What is this website?<a data-toggle = "modal" data-target = "#editFAQModal"><span style="float:right"class="glyphicon glyphicon-pencil pencil_icon admin_div"></span></a></h4>
+						<h4>What is this website?<a data-toggle = "modal" data-target = "#editFAQModal"><span style="float:right"class="glyphicon glyphicon-pencil pencil_icon user_div"></span></a></h4>
 					</div>
 		       		<div class="panel-body">
 						<p>Big Tool allows people to lend and rent tools from one another.</p>
@@ -27,7 +27,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>Who can use this site?<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon admin_div"></span></h4>
+						<h4>Who can use this site?<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon user_div"></span></h4>
 					</div>
 					<div class="panel-body">
 						<p>You can! Members of the public can rent and lend tools. Companies can also lend tools.</p>
@@ -36,7 +36,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>How do you rent tools?<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon admin_div"></span></h4>
+						<h4>How do you rent tools?<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon user_div"></span></h4>
 					</div>
 					<div class="panel-body">
 						<p>You can search for a tool in different categories and by distance from a location.
@@ -48,7 +48,7 @@ include("navBar.php")
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4>I have a problem with my rental.<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon admin_div"></span></h4>
+						<h4>I have a problem with my rental.<span style="float:right"class="glyphicon glyphicon-pencil pencil_icon user_div"></span></h4>
 					</div>
 					<div class="panel-body">
 						<p>You can file a dispute if you have a problem with the tool you are renting. 

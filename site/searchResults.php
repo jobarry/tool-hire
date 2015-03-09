@@ -27,7 +27,7 @@ include("navBar.php")
       <div class="row">
         <div class="col-md-5">
           <h4 class="list-group-item-heading">Wooden Hammer</h4>
-          <h5>Owner: Rich L</h5>
+          <h5>Owner: J Smith</h5>
           <h5>Average User Rating 4/5</h5>
           <p><strong>Title: </strong>Wooden hammer<br>
             <strong>Category:</strong> Manual tool<br>

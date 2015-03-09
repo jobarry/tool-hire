@@ -27,7 +27,7 @@ include("navBar.php");
                           Carbon steel head, Wooden grip.</br>
                           <strong>Condition: </strong>Used</br>
                           <strong>Price:</strong> £2 per day</p>
-                          <h5>Owner: Rich L</h5>
+                          <h5>Owner: J Smith</h5>
                           <button  type="button" class="btn btn-info" data-toggle = "modal" data-target = "#messageModal">Message Them</button>
                           <br><br>
 	     	   From: <span class="glyphicon glyphicon-calendar" aria-hidden="true"><input type="text" size="15" class="datepicker"></span></br> To: 
@@ -72,7 +72,7 @@ include("navBar.php");
 			</div>
 			<div class="modal-body">
 				<div class="panel-body" >
-					<p>Send <b class = "user">Rich L</b> a message:</p>
+					<p>Send <b class = "user">J Smith</b> a message:</p>
 					<form style="padding-top:10px;" class="form-horizontal" role="form">
 						<div  class="form-group">
 							<label style="padding-top:10px;" class="col-lg-4 control-label">Message Content:</label>

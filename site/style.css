@@ -42,7 +42,12 @@ body{
 
 
 /*This is to hide admin view*/
-/*.admin_div{
+.admin_div{
+	display:none;
+}
+
+/*This is to hide user view*/
+/*.user_div{
 	display:none;
 }*/
 
@@ -58,6 +63,9 @@ body{
 
 .user{
 	color: #32CD32;
+}
+.user2{
+	color: #1874CD;
 }
 /* layout.css Style */
 .check_age{

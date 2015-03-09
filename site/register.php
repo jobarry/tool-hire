@@ -45,6 +45,14 @@
           <label class="age_box"><input type="checkbox" class="checkbox check_age" />Confirm you are 18 and over</label> 
         </div>        
         </form>
+        <div class="col-sm-6">
+          <label class="age_box"><input type="checkbox" class="checkbox check_age" />Public user </label>
+        </div>
+        <form>
+        <div class="col-sm-6" >
+          <label class="age_box"><input type="checkbox" class="checkbox check_age" />Corperate user</label> 
+        </div>        
+        </form>
       </div>
     
       <div class="col-md-6">

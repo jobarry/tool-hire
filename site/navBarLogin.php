@@ -51,7 +51,7 @@
 			          <li class="test"><a href="#">+ 6 miles</a></li>
 			          <li class="test"><a href="#">+ 8 miles</a></li>
 			          <li class="test"><a href="#">+ 10 miles</a></li>
-			          <li> class="test"<a href="#">+ 12 miles</a></li>
+			          <li class="test"><a href="#">+ 12 miles</a></li>
 			        </ul>
 		    	</div>
 		    	</div>

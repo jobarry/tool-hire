@@ -38,13 +38,13 @@
         </div>      
         
         <div class="col-sm-6">
-          <input type="checkbox" class="checkbox" />Sign up for our newsletter
+          <label><input type="checkbox" class="checkbox" />Sign up for our newsletter</label>
         </div>
-
-        <div class="col-sm-6">
-          <input type="checkbox" class="checkbox" />Send email notifications 
+        <form>
+        <div class="col-sm-6" >
+          <label style=" display: block;"><input style="vertical-align: bottom;" type="checkbox" class="checkbox" />Confirm you are 18 and over</label> 
         </div>        
-      
+        </form>
       </div>
     
       <div class="col-md-6">

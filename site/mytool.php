@@ -233,33 +233,33 @@ include("navBar.php");
 						<div style="padding-top:10px;" class="form-group">
 							<label class="col-lg-4 control-label">Username:</label>
 							<div class="col-lg-7">
-								<input class="form-control" id="user_username" type="text"  value="JBarry" >
+								<input class="form-control" id="user_username" type="text"  value="TJones13" >
 							</div>
 						</div>
 
 						<div  class="form-group">
 							<label style="padding-top:10px;" class="col-lg-4 control-label">First Name:</label>
 							<div  style="padding-top:10px;" class="col-lg-7">
-								<input class="form-control" id="fName" type="text" value="John" >
+								<input class="form-control" id="fName" type="text" value="Thomas" >
 							</div>
 						</div>
 
 						<div  class="form-group">
 							<label style="padding-top:10px;" class="col-lg-4 control-label">Last Name:</label>
 							<div style="padding-top:10px;" class="col-lg-7">
-								<input class="form-control" id="sName" type="text" value="Barry" >
+								<input class="form-control" id="sName" type="text" value="Jones" >
 							</div>
 						</div>
 						<div  class="form-group">
 							<label style="padding-top:10px;" class="col-lg-4 control-label">Contact Number:</label>
 							<div style="padding-top:10px;" class="col-lg-7">
-								<input class="form-control" id="number" type="text" value="0789123456" >
+								<input class="form-control" id="number" type="text" value="0123456789" >
 							</div>
 						</div>
 						<div  class="form-group">
 							<label style="padding-top:10px;" class="col-lg-4 control-label">Email:</label>
 							<div style="padding-top:10px;" class="col-lg-7">
-								<input class="form-control" id="email" type="email" value="JBarry@bigtool.com" >
+								<input class="form-control" id="email" type="email" value="tjones13@tool.com" >
 							</div>
 						</div>
 					</form>
@@ -321,7 +321,7 @@ include("navBar.php");
 			</div>
 			<div class="modal-body">
 				<div class="panel-body" >
-				<h4 style="padding-bottom:10px;"  > Please rate your experiance renting a <b class = "user">Wooden Hammer</b> off <b class = "user">JBarry</b> between <b class = "user">19/04/15 - 20/04/15.</b> </h4>
+				<h4 style="padding-bottom:10px;"  > Please rate your experiance renting a <b class = "user">Wooden Hammer</b> off <b class = "user">JSmith</b> between <b class = "user">19/04/15 - 20/04/15.</b> </h4>
 
 					<h4><b>Rating Out Of 5:</b></h4>
 		    		<!-- <input type="number" id="rating" name="rating" min="1" max="5"> -->

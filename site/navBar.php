@@ -61,7 +61,7 @@
 		    	 <a href="searchResults.php"><button type="button" class="btn btn-default">Search <span class="glyphicon glyphicon-search"></span></button></a>	
 		        		   
 		      </ul>
-		      <div class="user_div">
+		      <div class="admin_div">
 		      <ul class="nav navbar-nav navbar-right">
 		      	<li><a class = "navbar-button" href="addTool.php">Add Tool</a></li>
 		      	<li><a href="mytool.php">MyPage</a></li>
@@ -71,9 +71,9 @@
 		        <li><a href="loginSignup.php">Logout</a></li>
 		      </ul>
 		      </div>
-		      <div class="admin_div">
+		      <div class="user_div">
 		      <ul class="nav navbar-nav navbar-right">
-		      	<li><a href="mytool.php">MyPage</a></li>
+		      	<li><a href="adminProfile.php">MyPage</a></li>
 		      	<li><a href="notification.php">Notifications <div id="not"><span class="glyphicon glyphicon-exclamation-sign"></span></div></a></li>
 		      	<li><a href="faq.php">FAQ</a></li>
 		        <li><a href="loginSignup.php">Logout</a></li>

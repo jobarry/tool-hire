@@ -15,7 +15,7 @@
 		        </div>
 
 		        <div class="panel-body">
-		        				<div class="lender">
+		        				<!-- <div class="lender">
 								<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -43,7 +43,7 @@
 										
 									</div>            
 								</div>
-								</div>
+								</div> -->
 
 								<div class="user_div">
 								<div  id= "reject_panel" class=" panel panel-default" >
@@ -69,7 +69,7 @@
 								</div>
 								</div>
 
-								<div class="lender">
+								<!-- <div class="lender">
 								<div  id= "reject_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -101,9 +101,9 @@
 										
 									</div>            
 								</div>
-								</div>
+								</div> -->
 
-								<div class="lender">
+								<!-- <div class="lender">
 								<div  id = "approve_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -132,7 +132,7 @@
 
 									</div>            
 								</div>
-								</div>
+								</div> -->
 
 								<div style = "display:none;"  id = "approve_after_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
@@ -143,7 +143,7 @@
 										</div>
 										<div class= "col-md-9"> 		
 											<div class="panel-body" >
-												<h4> Confirmed that <b class = "user">TJones13</b> will borrow <b class = "user">Wooden Hammer</b>between <b class = "user">19/04/15 - 20/04/15.</b> They have been notified and will contact you shorly to arrange pickup</h4>
+												<h4> Confirmed that <b class = "user">SFuller</b> will borrow <b class = "user">Wooden Hammer</b>between <b class = "user">19/04/15 - 20/04/15.</b> They have been notified and will contact you shorly to arrange pickup</h4>
 												
 												<div  style= " float: right; display:inline;">
 													<img src="img/tick.png">
@@ -155,7 +155,7 @@
 									</div>            
 								</div>
 
-								<div class="lender">
+								<!-- <div class="lender">
 								<div  id = "conflict_panel" class=" panel panel-default" >
 									<div style = " padding-top:10px"  class="panel-body" >
 										<div style = " padding-top:30px" class = "col-md-3">
@@ -165,7 +165,7 @@
 										</div>
 										<div class= "col-md-9"> 		
 											<div class="panel-body" >
-												<h4><b class = "user">TJones13</b> Has raised an issue about their rental of your tool between <b class = "user">19/04/15 - 20/04/15</b></h4>
+												<h4><b class = "user">SFuller</b> Has raised an issue about their rental of your tool between <b class = "user">10/04/15 - 11/04/15</b></h4>
 												<p><strong>Title: </strong>Wooden hammer</br>
 													<strong>Category:</strong> Manual tool</br>
 													<strong>Tool: </strong>Hammer</br>
@@ -183,7 +183,7 @@
 
 									</div>            
 								</div>
-								</div>
+								</div> -->
 
 
 								<div style = "display:none;"  id = "conflict_after_panel" class=" panel panel-default" >
@@ -275,7 +275,7 @@
 			<div class="modal-body">
 				<div class="panel-body" >
 
-					<p>Send message to <b class = "user">PArnold</b></p>
+					<p>Send message to <b class = "user">JSmith</b></p>
 					<form style="padding-top:10px;" class="form-horizontal" role="form">
 						
 						
@@ -310,8 +310,8 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">No</button>
-				<button type="button" class="btn btn-danger" onclick="hideApprove()" data-dismiss="modal">Yes</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+				<button type="button" class="btn btn-success" onclick="hideApprove()" data-dismiss="modal">Yes</button>
 			</div>
 		</div>
 	</div>
@@ -326,7 +326,7 @@
 			<div class="modal-body">
 				<div class="panel-body" >
 
-					<p>Issue Message from<b class = "user">TJones13:</b></p>
+					<p>Issue Message from<b class = "user"> SFuller:</b></p>
 					<p>Sorry, I'd like to cancel my order. Will I get my depsoit back?</p>
 					<form style="padding-top:10px;" class="form-horizontal" role="form">
 					<p>Send a response</p>
